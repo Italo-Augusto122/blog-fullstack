@@ -1,0 +1,107 @@
+head {
+    display: flex;
+    flex-direction: row;
+}
+
+.bg-main {
+    position: fixed;
+    z-index: -100;
+    object-fit: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgb(15, 15, 15);
+    color: #fff;
+    gap: 10px;
+    padding: 5px 50px;
+}
+
+header .game-icon {
+    max-width: 50px;
+    border-radius: 10px;
+}
+
+main {
+    background-color: rgb(39, 39, 39);
+    width: 90vw;
+    min-height: 100vh;
+    height: auto;
+    margin: auto;
+    /* align-items: center; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+    padding: 10px;
+}
+
+.logo {
+    max-width: 200px;
+    margin-left: 10%;
+}
+
+main h1 {
+    margin-left: 100px;
+}
+
+.characters-selector {
+    border: 1px solid rgb(169, 237, 137);
+    width: 90%;
+    padding: 10px;
+    border-radius: 20px 0 20px 0;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin: 50px auto;
+}
+
+.characters-selector a {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+    background-color: rgb(31, 31, 31);
+    padding: 3px 0 5px 0;
+    border-radius: 27px 0 0 0;
+}
+
+.selector-icon {
+    max-width: 150px;
+}
+
+footer {
+    background-color: rgb(15, 15, 15);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer .hoyoverse-logo {
+    max-width: 500px;
+}
+
+footer .plataformas {
+    color: #fff;
+    line-height: 50px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+footer .logos-plataformas {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+}

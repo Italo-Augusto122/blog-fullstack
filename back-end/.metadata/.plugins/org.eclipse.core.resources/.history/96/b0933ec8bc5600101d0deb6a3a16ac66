@@ -1,0 +1,17 @@
+package com.blog.zzz_blog_login.config;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.CommandLineRunner;
+
+public class Instantiation implements CommandLineRunner {
+
+	@Autowired
+	private UserResource userResource;
+	
+	@Override
+	public void run(String... args) throws Exception {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

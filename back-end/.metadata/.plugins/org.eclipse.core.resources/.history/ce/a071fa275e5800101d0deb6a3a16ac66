@@ -1,0 +1,5 @@
+package com.blog.zzz_blog_login.services.exceptions;
+
+public class ObjectNotFoundException {
+
+}

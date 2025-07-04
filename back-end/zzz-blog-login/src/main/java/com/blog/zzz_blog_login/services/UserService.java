@@ -33,4 +33,18 @@ public class UserService {
 		findById(id);
 		repo.deleteById(id);
 	}
+	
+	public User update(User obj) {
+		User newObj = findById(obj.getId());
+		updateDate(newObj, obj);
+		return repo.save(newObj);
+	}
+
+	private void updateDate(User newObj, User obj) {
+		newObj.setUsername(obj.getUsername());
+		newObj.setPassword(obj.getPassword());
+		newObj.setBirthDate(obj.getBirthDate());
+		newObj.setProfileImage(obj.getProfileImage());
+		newObj.setFavoriteCharacter(obj.getFavoriteCharacter());
+	}
 }

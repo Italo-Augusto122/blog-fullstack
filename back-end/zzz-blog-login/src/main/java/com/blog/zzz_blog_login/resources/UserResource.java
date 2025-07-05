@@ -12,10 +12,12 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
 import com.blog.zzz_blog_login.domain.User;
+import com.blog.zzz_blog_login.resources.util.URL;
 import com.blog.zzz_blog_login.services.UserService;
 
 @RestController
@@ -55,5 +57,15 @@ public class UserResource {
 		obj.setId(id);
 		obj = service.update(obj);
 		return ResponseEntity.noContent().build();
+	}
+	
+	// /users/search?username=VALUE
+	@GetMapping(value = "/search")
+	public ResponseEntity<List<User>> search(
+			@RequestParam(value = "username", defaultValue = "") String username) {
+		
+		username = URL.decodeParam(username);
+		List<User> list = service.search(username);
+		return ResponseEntity.ok().body(list);
 	}
 }

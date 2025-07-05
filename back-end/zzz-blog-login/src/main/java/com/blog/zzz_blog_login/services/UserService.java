@@ -47,4 +47,8 @@ public class UserService {
 		newObj.setProfileImage(obj.getProfileImage());
 		newObj.setFavoriteCharacter(obj.getFavoriteCharacter());
 	}
+	
+	public List<User> search(String username) {
+		return repo.search(username);
+	}
 }

@@ -1,0 +1,18 @@
+package com.blog.zzz_blog_login.resources.util;
+
+import java.io.UnsupportedEncodingException;
+import java.net.URLDecoder;
+
+import ch.qos.logback.core.recovery.ResilientSyslogOutputStream;
+
+public class URL {
+
+	public static String decodeParam(String text) {
+		try {
+			return URLDecoder.decode(text, "UFT-8");
+		} catch (UnsupportedEncodingException e) {
+			System.out.println("Erro no decode");
+			return "";
+		}
+	}
+}

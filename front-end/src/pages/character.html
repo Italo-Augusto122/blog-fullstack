@@ -1,37 +1,79 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog ZZZ</title>
+
+    <script src="../js/character.js"></script>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/character.css">
 </head>
+
 <body>
-    <h1 id="name"></h1>
-    <p id="rank"></p>
-    <p id="element"></p>
+    <header>
+        <p>header</p>
+    </header>
 
-    <script>
+    <main>
+        <div class="banner">
+            <i id="char_banner"></i>
+        </div>
+        <div class="title">
+            <h1 id="name"></h1>
+            <i id="rank"></i>
+            <p id="element"></p>
+        </div>
+        <section id="description">
+            <div class="box">
+                <div class="info">
+                    <p class="char_description" id="char_description"></p>
+                    <div class="sub_title">
+                        <hr>
+                        <h2 id="char_stats"></h2>
+                    </div>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Stats</th>
+                                <th>Lvl 60</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>HP</td>
+                                <td><p id="char_hp"></p></td>
+                            </tr>
+                            <tr>
+                                <td>ATK</td>
+                                <td><p id="char_atk"></p></td>
+                            </tr>
+                            <tr>
+                                <td>DEF</td>
+                                <td><p id="char_def"></p></td>
+                            </tr>
+                            <tr>
+                                <td>Impact</td>
+                                <td><p id="char_impact"></p></td>
+                            </tr>
+                            <tr>
+                                <td>Anomaly Maestry</td>
+                                <td><p id="char_maestry"></p></td>
+                            </tr>
+                            <tr>
+                                <td>Anomaly Proficiency</td>
+                                <td><p id="char_proficiency"></p></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <i id="char_fullart"></i>
+            </div>
+        </section>
+    </main>
 
-        function getParameter(name) {
-            const params = new URLSearchParams(window.location.search);
-            return params.get(name);
-        }
 
-        const charName = getParameter("name");
-
-        fetch("../json/characters.json")
-            .then(response => response.json())
-            .then(data => {
-            if (data[charName]) {
-                const char = data[charName];
-                document.getElementById("name").textContent = char.name;
-                document.getElementById("rank").textContent = char.rank;
-                document.getElementById("element").textContent = char.element;
-            } else {
-                document.body.innerHTML = "<h1>Personagem não encontrado!</h1>";
-            }
-        }).catch(error => console.error("Erro ao carregar os dados:", error));
-
-    </script>
 </body>
+
 </html>

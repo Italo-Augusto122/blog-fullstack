@@ -1,0 +1,82 @@
+main {
+    background: rgb(30, 30, 30);
+    color: #fff;
+    min-height: 100vh;
+    padding: 20px 40px;
+}
+
+.banner {
+    display: flex;
+    background: #c49331;
+    background: linear-gradient(44deg, rgba(196, 147, 49, 1) 10%, rgba(230, 218, 53, 1) 55%);
+    justify-content: center;
+    border-radius: 50px 0 50px 0;
+    width: 100%;
+    margin: auto;
+}
+
+.banner .char_banner {
+    height: 100%;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+section#description .box {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+section#description .box .char_description {
+    margin: 20px;
+}
+
+section#description .box .char_fullart {
+    max-width: 400px;
+    background: #c49331;
+    background: linear-gradient(44deg, rgba(196, 147, 49, 1) 10%, rgba(230, 218, 53, 1) 55%);
+    border-radius: 50px 0 50px 0;
+}
+
+section#description .box .sub_title {
+    display: flex;
+    gap: 20px;
+}
+
+section#description .box .sub_title hr {
+    width: 5px;
+    border: 1px solid rgba(230, 218, 53, 1);
+    background-color: rgba(230, 218, 53, 1);
+}
+
+section#description table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: separate;
+    border-spacing: 0, 20px;
+    text-align: center;
+    border: 2px solid black;
+}
+
+
+section#description table td:nth-child(even) {
+    background-color: rgb(132, 132, 132);
+}
+
+
+section#description table td:nth-child(odd) {
+    background-color: rgb(57, 57, 57);
+}
+
+section#description table th {
+    background-color: rgb(16, 16, 16);
+}
+
+section#description table th,
+section#description table td {
+    padding: 20px;
+}

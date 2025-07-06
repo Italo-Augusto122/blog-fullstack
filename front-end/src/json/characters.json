@@ -1,13 +1,45 @@
 {
     "miyabi": {
-        "name": "Hoshimi Miyabi",
+        "fullName": "Hoshimi Miyabi",
+        "name": "miyabi",
         "rank": "S",
-        "element": "Frost"
+        "element": "frost",
+        "description": "Chefe da Seção 6 de Operações Especiais Hollow e sucessora de uma renomada família de artes marciais em New Eridu. Com seu forte senso de responsabilidade em proteger os princípios e a ordem dentro de New Eridu, Miyabi aspira construir um sistema de gestão da cidade inquebrável... e possuir uma coleção considerável de espadas (palavras dela).",
+        "baseStats": [
+            7673,
+            855,
+            606,
+            86,
+            116,
+            148
+        ]
     },
 
     "evelyn": {
-        "name": "Evelyn Chevalier",
+        "fullName": "Evelyn Chevalier",
+        "name": "evelyn",
         "rank": "S",
-        "element": "Fire"
+        "element": "fire"
+    },
+
+    "vivian": {
+        "fullName": "Vivian",
+        "name": "vivian",
+        "rank": "S",
+        "element": "eter"
+    },
+
+    "lither": {
+        "fullName": "Lither",
+        "name": "lither",
+        "rank": "S",
+        "element": "fire"
+    },
+
+    "astra": {
+        "fullName": "Astra Yao",
+        "name": "astra",
+        "rank": "S",
+        "element": "eter"
     }
 }

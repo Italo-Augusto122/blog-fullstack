@@ -80,3 +80,35 @@ section#description table th,
 section#description table td {
     padding: 20px;
 }
+
+section#builds .btns {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+section#builds .btns input {
+    display: none;
+}
+
+section#builds .btns label {
+    background-color: rgb(57, 57, 57);
+    padding: 0.5rem 1.1rem  ;
+    width: 30%;
+    text-align: center;
+    border: 2px solid rgb(0, 0, 0);
+    border-bottom: 4px solid rgb(0, 0, 0);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+section#builds .btns label:hover {
+    background-color: rgb(132, 132, 132);
+    border-color: rgb(57, 57, 57);
+}
+
+section#builds .btns input:checked + label {
+    background-color: rgb(132, 132, 132);
+    border-color: rgb(57, 57, 57);
+    border-bottom-color: rgba(230, 218, 53, 1);
+}

@@ -112,3 +112,56 @@ section#builds .btns input:checked + label {
     border-color: rgb(57, 57, 57);
     border-bottom-color: rgba(230, 218, 53, 1);
 }
+
+section#builds .w-engines-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 10px 50px;
+}
+
+section#builds .w-engines-container .w-engine-box {
+    display: flex;
+    flex-direction: column;
+    /* padding: 5px 30px; */
+    width: 80%;
+    background-color: rgb(57, 57, 57);
+    border: 2px solid rgb(132, 132, 132);
+}
+
+section#builds .w-engines-container .w-engine-box .header-engine-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 30px;
+    cursor: pointer;
+}
+
+section#builds .w-engines-container .w-engine-box .header-engine-box div {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+section#builds .w-engines-container .w-engine-box .header-engine-box i {
+    transition: all 0.3s ease;
+}
+section#builds .w-engines-container .w-engine-box .header-engine-box i.rotate {
+    transform: rotate(180deg);
+}
+
+section#builds .w-engines-container .description-box {
+    opacity: 0;
+    max-height: 0;
+    overflow: hidden;
+    padding: 0 30px;
+    background-color: rgb(30, 30, 30);
+    transition: all 0.3s ease;
+}
+section#builds .w-engines-container .description-box.active {
+    opacity: 1;
+    max-height: 150px;
+    padding: 10px 30px;
+}

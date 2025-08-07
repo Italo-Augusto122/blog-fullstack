@@ -5,6 +5,7 @@
         "rank": "S",
         "tier": "0",
         "category": "main_dps",
+        "type": "anomaly",
         "sprite": "/public/images/characters/miyabi/miyabi-selector-icon.png",
         "element": "frost",
         "description": "Chefe da Seção 6 de Operações Especiais Hollow e sucessora de uma renomada família de artes marciais em New Eridu. Com seu forte senso de responsabilidade em proteger os princípios e a ordem dentro de New Eridu, Miyabi aspira construir um sistema de gestão da cidade inquebrável... e possuir uma coleção considerável de espadas (palavras dela).",
@@ -17,7 +18,11 @@
             148
         ],
         "wEngines": [
-            "assinatura"
+            "hailstorm_shrine",
+            "fusion_compiler",
+            "electro_lip_gloss",
+            "rainforest_gourmet",
+            "weeping_gemini"
         ],
         "teams": [
             "burnice"
@@ -30,6 +35,7 @@
         "rank": "S",
         "tier": "0-5",
         "category": "main_dps",
+        "type": "attack",
         "sprite": "/public/images/characters/evelyn/evelyn-selector-icon.png",
         "element": "fire",
         "description": "",
@@ -55,6 +61,7 @@
         "rank": "S",
         "tier": "0",
         "category": "sub_dps",
+        "type": "anomaly",
         "sprite": "/public/images/characters/vivian/vivian-selector-icon.png",
         "element": "eter",
         "description": "",
@@ -80,6 +87,7 @@
         "rank": "S",
         "tier": "0",
         "category": "stun",
+        "type": "stun",
         "sprite": "/public/images/characters/lither/lither-selector-icon.png",
         "element": "fire",
         "description": "",
@@ -105,6 +113,7 @@
         "rank": "S",
         "tier": "0",
         "category": "support",
+        "type": "support",
         "sprite": "/public/images/characters/astra/astra-selector-icon.png",
         "element": "eter",
         "description": "",

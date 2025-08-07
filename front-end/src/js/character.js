@@ -39,14 +39,66 @@ fetch("../json/characters.json")
             const pageWEngines = () => {
                 document.getElementById("container_builds").innerHTML = "";
 
-                const box = document.createElement("div");
-                box.className = "w-engine_box";
+                const enginesContainer = document.createElement("div");
+                enginesContainer.className = "w-engines-container";
 
-                const text = document.createElement("p");
-                text.textContent = char.wEngines[0];
+                fetch("../json/wEngines.json")
+                    .then(response => response.json())
+                    .then(data => {
+                        for (let i = 0; i < char.wEngines.length; i++) {
+                            const engine = data[char.type][char.wEngines[i]];
 
-                box.appendChild(text);
-                document.getElementById("container_builds").appendChild(box);
+                            const box = document.createElement("div");
+                            box.className = "w-engine-box";
+
+                            const headerBox = document.createElement("div");
+                            headerBox.className = "header-engine-box";
+
+                            const sonBox = document.createElement("div");
+
+                            const img = document.createElement("img");
+                            img.src = engine.sprite;
+                            img.width = 64;
+
+                            const name = document.createElement("p");
+                            name.textContent = engine.name;
+
+                            if (engine.rank === "S") {
+                                name.style.color = "#ffcc00";
+                            } else if (engine.rank === "A") {
+                                name.style.color = "#8f41d3ff";
+                            }
+                            sonBox.appendChild(img);
+                            sonBox.appendChild(name);
+
+                            const arrow = document.createElement("i");
+                            arrow.className = "bi bi-chevron-down";
+                            
+                            headerBox.appendChild(sonBox);
+                            headerBox.appendChild(arrow);
+
+                            const descriptionBox = document.createElement("div");
+                            descriptionBox.className = "description-box";
+                            // descriptionBox.style.display = "none";
+
+                            const description = document.createElement("p");
+                            description.textContent = engine.description;
+
+                            descriptionBox.appendChild(description);
+
+                            headerBox.addEventListener("click", () => {
+                                descriptionBox.classList.toggle("active");
+                                arrow.classList.toggle("rotate");
+                            });
+
+                            box.appendChild(headerBox);
+                            box.appendChild(descriptionBox);
+
+                            enginesContainer.appendChild(box);
+                        }
+                    }).catch(error => console.error("Erro ao carregar os dados:", error));
+
+                document.getElementById("container_builds").appendChild(enginesContainer);
             }
             const pageTeams = () => {
                 document.getElementById("container_builds").innerHTML = "";
@@ -70,8 +122,8 @@ fetch("../json/characters.json")
             }
 
             pageWEngines()
-            document.getElementById("page_0").addEventListener("click", () => {changePage(0)});
-            document.getElementById("page_1").addEventListener("click", () => {changePage(1)});
+            document.getElementById("page_0").addEventListener("click", () => { changePage(0) });
+            document.getElementById("page_1").addEventListener("click", () => { changePage(1) });
         } else {
             document.body.innerHTML = "<h1>Personagem não encontrado!</h1>";
         }

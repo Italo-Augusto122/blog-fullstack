@@ -1,0 +1,92 @@
+{
+    "anomaly": {
+        "flamemaker_shaker": {
+            "name": "Flamemaker Shaker",
+            "sprite": "/public/images/w-engines/anomaly/flamemaker_shaker.webp",
+            "rank": "S",
+            "description": "While off-field, the equipper's Energy Regen increases by 0.6/0.75/0.9/1.05/1.2 per second. When hitting an enemy with an EX Special Attack or Assist Attack, the equipper's DMG increases by 3.5/4.4/5.2/6.1/7%, stacking up to 10 times and lasting for 6s. This effect can trigger once every 0.3s. While off-field, the stack effect is doubled. Repeated triggers reset the duration. Upon obtaining the DMG increase effect, if the number of current stacks is greater than or equal to 5, then the equipper's Anomaly Proficiency increases by 50/62/75/87/100. This Anomaly Proficiency increase does not stack and lasts for 6s.",
+            "mainStatus": "Base ATK (Lv 60): 713",
+            "subStatus": "Attack (Lv 60): 30%"
+        },
+        "flight_of_fancy": {
+            "name": "Flight of Fancy",
+            "sprite": "/public/images/w-engines/anomaly/flight_of_fancy.webp",
+            "rank": "S",
+            "description": "Increases Anomaly Buildup Rate by 40/46/52/58/64%. When the equipper deals Ether DMG, their Anomaly Proficiency increases by 20/23/26/29/32 for 5s, stacking up to 6 times. This effect can trigger once every 0.5s, and repeated triggers reset the duration.",
+            "mainStatus": "Base ATK (Lv 60): 713",
+            "subStatus": "Anomaly Proficiency (Lv 60): 90"
+        },
+        "fusion_compiler": {
+            "name": "Fusion Compiler",
+            "sprite": "/public/images/w-engines/anomaly/fusion_compiler.webp",
+            "rank": "S",
+            "description": "Increases ATK by 12/15/18/21/24%. When using a Special Attack or EX Special Attack, the equipper's Anomaly Proficiency is increased by 25/31/37/43/50 for 8s, stacking up to 3 times. The duration of each stack is calculated separately.",
+            "mainStatus": "Base ATK (Lv 60): 684",
+            "subStatus": "PEN Ratio (Lv 60): 24%"
+        },
+        "hailstorm_shrine": {
+            "name": "Hailstorm Shrine",
+            "sprite": "/public/images/w-engines/anomaly/hailstorm_shrine.webp",
+            "rank": "S",
+            "description": "CRIT DMG increases by 50/57/65/72/80%. When using an EX Special Attack or when any squad member applies an Attribute Anomaly to an enemy, the equipper's Ice DMG increases by 20/23/26/29/32%, stacking up to 2 times and lasting 15s. The duration of each stack is calculated separately.",
+            "mainStatus": "Base ATK (Lv 60): 743",
+            "subStatus": "Crit Rate (Lv 60): 24%"
+        },
+        "practiced_perfection": {
+            "name": "Practiced Perfection",
+            "sprite": "/public/images/w-engines/anomaly/practiced_perfection.webp",
+            "rank": "S",
+            "description": "The equipper's Anomaly Mastery increases by 60/69/78/87/96. When inflicting Assault, the equipper's Physical DMG increases by 20/23/26/29/32% for 20s, stacking up to 2 times. Repeated triggers reset the duration. When the equipper enters combat, immediately gain 2 stacks.",
+            "mainStatus": "Base ATK (Lv 60): 713",
+            "subStatus": "Attack (Lv 60): 30%"
+        },
+        "sharpened_stinger": {
+            "name": "Sharpened Stinger",
+            "sprite": "/public/images/w-engines/anomaly/sharpened_stinger.webp",
+            "rank": "S",
+            "description": "Upon activating a Dash Attack, gain 1 stack of Predatory Instinct. Each stack of Predatory Instinct increases the equipper's Physical DMG by 12/15/18/21/24% for 10s, stacking up to 3 times. This effect can trigger once every 0.5s and repeated triggers reset the duration. When entering combat or triggering Perfect Dodge, gain 3 stacks of Predatory Instinct. While Predatory Instinct is at maximum stacks, the equipper's Anomaly Buildup Rate increases by 40/50/60/70/80%.",
+            "mainStatus": "Base ATK (Lv 60): 713",
+            "subStatus": "Anomaly Proficiency (Lv 60): 90"
+        },
+        "timeweaver": {
+            "name": "Timeweaver",
+            "sprite": "/public/images/w-engines/anomaly/timeweaver.webp",
+            "rank": "S",
+            "description": "The equipper's Electric Anomaly Buildup Rate increases by 30/35/40/45/50%. When Special Attacks or EX Special Attacks hit enemies under Attribute Anomalies, the equipper's Anomaly Proficiency increases by 75/85/95/105/115 for 15s. When the equipper's Anomaly Proficiency is greater than or equal to 375, Disorder DMG inflicted by the equipper increases by 25/27.5/30/32.5/35%.",
+            "mainStatus": "Base ATK (Lv 60): 713",
+            "subStatus": "Attack (Lv 60): 30%"
+        },
+        "electro_lip_gloss": {
+            "name": "Electro-Lip Gloss",
+            "sprite": "/public/images/w-engines/anomaly/electro_lip_gloss.webp",
+            "rank": "A",
+            "description": "When there are enemies inflicted with Attribute Anomaly on the field, the equipper's ATK increases by 10/11.5/13/14.5/16% and they deal an additional 15/17.5/20/22.5/25% more DMG to the target.",
+            "mainStatus": "Base ATK (Lv 60): 594",
+            "subStatus": "Anomaly Proficiency (Lv 60): 75"
+        },
+        "rainforest_gourmet": {
+            "name": "Rainforest Gourmet",
+            "sprite": "/public/images/w-engines/anomaly/rainforest_gourmet.webp",
+            "rank": "A",
+            "description": "For every 10 Energy consumed, the equipper gains a buff that increases ATK by 2.5/2.8/3.2/3.6/4% for 10s, stacking up to 10 times. The duration of each stack is calculated separately.",
+            "mainStatus": "Base ATK (Lv 60): 594",
+            "subStatus": "Anomaly Proficiency (Lv 60): 75"
+        },
+        "roaring_ride": {
+            "name": "Roaring Ride",
+            "sprite": "/public/images/w-engines/anomaly/roaring_ride.webp",
+            "rank": "A",
+            "description": "When EX Special Attack hits an enemy, one of three possible effects is randomly triggered for 5 seconds. This effect can trigger once every 0.3s. The same types of effects cannot stack. Repeated triggers reset the duration allowing several effects to be active at once: increases the equipper's ATK by 8/9.2/10.4/11.6/12.8%, increases the equipper's Anomaly Proficiency by 40/46/52/58/64, increases the equipper's Anomaly Buildup Rate by 25/28/32/36/40%.",
+            "mainStatus": "Base ATK (Lv 60): 624",
+            "subStatus": "Attack (Lv 60): 25%"
+        },
+        "weeping_gemini": {
+            "name": "Weeping Gemini",
+            "sprite": "/public/images/w-engines/anomaly/weeping_gemini.webp",
+            "rank": "A",
+            "description": "Whenever a squad member inflicts an Attribute Anomaly on an enemy, the equipper gains a buff that increases Anomaly Proficiency by 30/34/38/42/46, stacking up to 4 times. This effect expires when the target recovers from Stun or is defeated. The duration of each stack is calculated separately.",
+            "mainStatus": "Base ATK (Lv 60): 594",
+            "subStatus": "Attack (Lv 60): 25%"
+        }
+    }
+}

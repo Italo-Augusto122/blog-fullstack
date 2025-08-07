@@ -12,15 +12,15 @@ fetch("../json/characters.json")
             const char = data[charName];
             document.getElementById("name").textContent = char.fullName;
 
-            document.getElementById("rank").innerHTML = `<img class="char_banner" src="../images/rank${char.rank}.webp" alt="rank ${char.rank}" style="max-width: 25px;" >`;
+            document.getElementById("rank").innerHTML = `<img class="char_banner" src="/public/images/rank${char.rank}.webp" alt="rank ${char.rank}" style="max-width: 25px;" >`;
 
-            document.getElementById("element").innerHTML = `<img class="char_banner" src="../images/elements/${char.element}.png" alt="${char.element}" style="max-width: 25px;" >`;
+            document.getElementById("element").innerHTML = `<img class="char_banner" src="/public/images/elements/${char.element}.png" alt="${char.element}" style="max-width: 25px;" >`;
 
-            document.getElementById("char_banner").innerHTML = `<img class="char_banner" src="../images/characters/${char.name}/${char.name}-uncolored-banner.webp" alt="${char.name}" >`;
+            document.getElementById("char_banner").innerHTML = `<img class="char_banner" src="/public/images/characters/${char.name}/${char.name}-uncolored-banner.webp" alt="${char.name}" >`;
 
             document.getElementById("char_description").textContent = char.description;
 
-            document.getElementById("char_fullart").innerHTML = `<img class="char_fullart" src="../images/characters/${char.name}/${char.name}-fullart.webp" alt="${char.name}" >`;
+            document.getElementById("char_fullart").innerHTML = `<img class="char_fullart" src="/public/images/characters/${char.name}/${char.name}-fullart.webp" alt="${char.name}" >`;
 
             document.getElementById("char_stats").textContent = `${char.fullName} Base Stats`;
 

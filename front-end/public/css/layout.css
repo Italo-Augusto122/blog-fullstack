@@ -1,0 +1,52 @@
+header {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgb(15, 15, 15);
+    color: #fff;
+    justify-content: space-between;
+    padding: 5px 50px;
+    z-index: 10;
+}
+
+header div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+header .game-icon {
+    max-width: 50px;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: rgb(15, 15, 15);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer .hoyoverse-logo {
+    max-width: 500px;
+}
+
+footer .plataformas {
+    color: #fff;
+    line-height: 50px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+footer .logos-plataformas {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+}

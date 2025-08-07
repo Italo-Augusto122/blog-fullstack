@@ -3,6 +3,9 @@
         "fullName": "Hoshimi Miyabi",
         "name": "miyabi",
         "rank": "S",
+        "tier": "0",
+        "category": "main_dps",
+        "sprite": "/public/images/characters/miyabi/miyabi-selector-icon.png",
         "element": "frost",
         "description": "Chefe da Seção 6 de Operações Especiais Hollow e sucessora de uma renomada família de artes marciais em New Eridu. Com seu forte senso de responsabilidade em proteger os princípios e a ordem dentro de New Eridu, Miyabi aspira construir um sistema de gestão da cidade inquebrável... e possuir uma coleção considerável de espadas (palavras dela).",
         "baseStats": [
@@ -25,27 +28,99 @@
         "fullName": "Evelyn Chevalier",
         "name": "evelyn",
         "rank": "S",
-        "element": "fire"
+        "tier": "0-5",
+        "category": "main_dps",
+        "sprite": "/public/images/characters/evelyn/evelyn-selector-icon.png",
+        "element": "fire",
+        "description": "",
+        "baseStats": [
+            7673,
+            855,
+            606,
+            86,
+            116,
+            148
+        ],
+        "wEngines": [
+            "assinatura"
+        ],
+        "teams": [
+            "personagem"
+        ]
     },
 
     "vivian": {
         "fullName": "Vivian",
         "name": "vivian",
         "rank": "S",
-        "element": "eter"
+        "tier": "0",
+        "category": "sub_dps",
+        "sprite": "/public/images/characters/vivian/vivian-selector-icon.png",
+        "element": "eter",
+        "description": "",
+        "baseStats": [
+            7673,
+            855,
+            606,
+            86,
+            116,
+            148
+        ],
+        "wEngines": [
+            "assinatura"
+        ],
+        "teams": [
+            "personagem"
+        ]
     },
 
     "lither": {
         "fullName": "Lither",
         "name": "lither",
         "rank": "S",
-        "element": "fire"
+        "tier": "0",
+        "category": "stun",
+        "sprite": "/public/images/characters/lither/lither-selector-icon.png",
+        "element": "fire",
+        "description": "",
+        "baseStats": [
+            7673,
+            855,
+            606,
+            86,
+            116,
+            148
+        ],
+        "wEngines": [
+            "assinatura"
+        ],
+        "teams": [
+            "personagem"
+        ]
     },
 
     "astra": {
         "fullName": "Astra Yao",
         "name": "astra",
         "rank": "S",
-        "element": "eter"
+        "tier": "0",
+        "category": "support",
+        "sprite": "/public/images/characters/astra/astra-selector-icon.png",
+        "element": "eter",
+        "description": "",
+        "baseStats": [
+            7673,
+            855,
+            606,
+            86,
+            116,
+            148
+        ],
+        "wEngines": [
+            "assinatura"
+        ],
+        "teams": [
+            "personagem"
+        ]
     }
 }

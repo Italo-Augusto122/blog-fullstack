@@ -63,7 +63,7 @@ section#about {
     position: relative;
     display: flex;
     padding: 50px;
-    background-image: url(../images/about-wallpaper.jpg);
+    background-image: url(/public/images/about-wallpaper.jpg);
 }
 
 section#about::before {

@@ -42,6 +42,25 @@ fetch("../json/characters.json")
                 const enginesContainer = document.createElement("div");
                 enginesContainer.className = "w-engines-container";
 
+                const titleBox = document.createElement("div");
+                titleBox.style.display = "flex";
+                titleBox.style.justifyContent = "flex-start";
+                titleBox.style.width = "90%";
+                titleBox.style.gap = "20px";
+
+                const hr = document.createElement("hr");
+                hr.style.width = "5px";
+                hr.style.backgroundColor = "rgba(230, 218, 53, 1)";
+                hr.style.border = "none";
+
+                const title = document.createElement("h2");
+                title.textContent = "Best W-Engines";
+
+                titleBox.appendChild(hr);
+                titleBox.appendChild(title);
+
+                enginesContainer.appendChild(titleBox);
+
                 fetch("../json/wEngines.json")
                     .then(response => response.json())
                     .then(data => {

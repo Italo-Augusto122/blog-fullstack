@@ -88,5 +88,367 @@
             "mainStatus": "Base ATK (Lv 60): 594",
             "subStatus": "Attack (Lv 60): 25%"
         }
+    },
+    "attack": {
+        "deep_sea_visitor": {
+            "name": "Deep Sea Visitor",
+            "sprite": "/public/images/w-engines/attack/deep_sea_visitor.webp",
+            "rank": "S",
+            "description": "Increases Ice DMG by 25/31.5/38/44.5/50%. Upon hitting an enemy with a Basic Attack, the equipper's CRIT Rate increases by 10/12.5.15/17.5/20% for 8s. When dealing Ice DMG with a Dash Attack, the equipper's CRIT Rate increases by an additional 10/12.5.15/17.5/20%for 15s. The duration of each effect is calculated separately.",
+            "mainStatus": "Base ATK (Lv 60): 713",
+            "subStatus": "Crit Rate (Lv 60): 24%"
+        },
+        "heartstring_nocturne": {
+            "name": "Heartstring Nocturne",
+            "sprite": "/public/images/w-engines/attack/heartstring_nocturne.webp",
+            "rank": "S",
+            "description": "CRIT DMG increases by 50/57.5/65/72.5/80%. When the equipper enters the battlefield, or activates a Chain Attack or Ultimate, they gain 1 stack of Heartstring. Each stack of Heartstring allows the equipper's Chain Attack and Ultimate to ignore 12.5/14.5/16.5/18.5/20% of the target's Fire RES, stacking up to 2 times and lasting 30s. Repeated triggers reset the duration.",
+            "mainStatus": "Base ATK (Lv 60): 713",
+            "subStatus": "Crit Rate (Lv 60): 24%"
+        },
+        "myriad_eclipse": {
+            "name": "Myriad Eclipse",
+            "sprite": "/public/images/w-engines/attack/myriad_eclipse.webp",
+            "rank": "S",
+            "description": "Increases CRIT DMG by 45/51.75/58.5/65.25/72%. When using an EX Special Attack, Chain Attack, or Ultimate to deal Ice DMG, the equipper gains the Absolute Zero Death Sentence effect for 3s. While Absolute Zero Death Sentence is active, the character ignores 25/28.75/32.5/36.25/40% of the enemy's DEF when landing a hit.",
+            "mainStatus": "Base ATK (Lv 60): 713",
+            "subStatus": "Crit Rate (Lv 60): 24%"
+        },
+        "riot_suppressor_mark_vi": {
+            "name": "Riot Suppressor Mark VI",
+            "sprite": "/public/images/w-engines/attack/riot_suppressor_mark_vi.webp",
+            "rank": "S",
+            "description": "Increases CRIT Rate by 15%. Launching an EX Special Attack grants the equipper 8 Charge stacks, up to a maximum of 8 stacks. Whenever the equipper's Basic Attack deals Ether DMG, consumes a Charge stack and increases the skill's DMG by 35%.",
+            "mainStatus": "Base ATK (Lv 60): 713",
+            "subStatus": "Crit Damage (Lv 60): 48%"
+        },
+        "severed_innocence": {
+            "name": "Severed Innocence",
+            "sprite": "/public/images/w-engines/attack/severed_innocence.webp",
+            "rank": "S",
+            "description": "CRIT DMG is increased by 30/34.5/39/43.5/48%. When the equipper lands a hit with a Basic Attack, Special Attack, or Aftershock, they gain 1 stack of a buff. Each stack increases the equipper's CRIT DMG by an additional 10/11.5/13/14.5/16%, stacking up to 3 times. The effect lasts for 30s, with each stack's duration calculated separately, and can only be triggered once per use of a skill. With all 3 stacks, the equipper's Electric DMG increases by 20/23/26/29/32%.",
+            "mainStatus": "Base ATK (Lv 60): 713",
+            "subStatus": "Crit Damage (Lv 60): 48%"
+        },
+        "steel_cushion": {
+            "name": "Steel Cushion",
+            "sprite": "/public/images/w-engines/attack/steel_cushion.webp",
+            "rank": "S",
+            "description": "Increases Physical DMG by 20/25/30/35/40%. The equipper's DMG increases by 25/31.5/38/44/50% when attacking the enemy from behind.",
+            "mainStatus": "Base ATK (Lv 60): 684",
+            "subStatus": "Crit Rate (Lv 60): 24%"
+        },
+        "the_brimstone": {
+            "name": "The Brimstone",
+            "sprite": "/public/images/w-engines/attack/the_brimstone.webp",
+            "rank": "S",
+            "description": "Upon hitting an enemy with a Basic Attack, Dash Attack, or Dodge Counter, the equipper's ATK increases by 3.5/4.4/5.2/6/7% for 8s, stacking up to 8 times. This effect can trigger once every 0.5s. The duration of each stack is calculated separately.",
+            "mainStatus": "Base ATK (Lv 60): 684",
+            "subStatus": "Attack (Lv 60): 30%"
+        },
+        "zanshin_herb_case": {
+            "name": "Zanshin Herb Case",
+            "sprite": "/public/images/w-engines/attack/zanshin_herb_case.webp",
+            "rank": "S",
+            "description": "CRIT Rate increases by 10/11.5/13/14.5/16%. Dash Attack Electric DMG increases by 40/46/52/58/64%. When any squad member applies an Attribute Anomaly or Stuns an enemy, the equipper's CRIT Rate increases by an additional 10/11.5/13/14.5/16% for 15s.",
+            "mainStatus": "Base ATK (Lv 60): 713",
+            "subStatus": "Crit Damage (Lv 60): 48%"
+        },
+        "cannon_rotor": {
+            "name": "Cannon Rotor",
+            "sprite": "/public/images/w-engines/attack/cannon_rotor.webp",
+            "rank": "A",
+            "description": "Increases ATK by 7.5/8.6/9.7/10.8/12%. Attacks that land a CRIT on an enemy will inflict an additional 200% of ATK as DMG. This effect can only be triggered once every 8/7.5/7/6.5/6s.",
+            "mainStatus": "Base ATK (Lv 60): 594",
+            "subStatus": "Crit Rate (Lv 60): 20%"
+        },
+        "drill_rig_red_axis": {
+            "name": "Drill Rig - Red Axis",
+            "sprite": "/public/images/w-engines/attack/drill_rig_red_axis.webp",
+            "rank": "A",
+            "description": "When launching an EX Special Attack or Chain Attack, Electric DMG from Basic Attacks and Dash Attacks increases by 50/57.5/65/72.5/80% for 10s. This effect can trigger once every 15s.",
+            "mainStatus": "Base ATK (Lv 60): 624",
+            "subStatus": "Energy Regen (Lv 60): 50%"
+        },
+        "gilded_blossom": {
+            "name": "Gilded Blossom",
+            "sprite": "/public/images/w-engines/attack/gilded_blossom.webp",
+            "rank": "A",
+            "description": "ATK increases by 6/6.9/7.8/8.7/9.6%, and DMG dealt by EX Special Attacks increases by 15/17.2/19.5/21.8/24%.",
+            "mainStatus": "Base ATK (Lv 60): 594",
+            "subStatus": "Attack (Lv 60): 25%"
+        },
+        "housekeeper": {
+            "name": "Housekeeper",
+            "sprite": "/public/images/w-engines/attack/housekeeper.webp",
+            "rank": "A",
+            "description": "While off-field, Energy Regen increases by 0.45/0.52/0.58/0.65/0.72 per second. When an EX Special Attack hits an enemy, the equipper's Physical DMG increases by 3/3.5/4/4.4/4.8%, stacking up to 15 times and lasting 1s. Retriggering refreshes duration.",
+            "mainStatus": "Base ATK (Lv 60): 624",
+            "subStatus": "Attack (Lv 60): 25%"
+        },
+        "marcato_desire": {
+            "name": "Marcato Desire",
+            "sprite": "/public/images/w-engines/attack/marcato_desire.webp",
+            "rank": "A",
+            "description": "When an EX Special Attack or Chain Attack hits an enemy, the equipper's ATK increases by 6/6.9/7.8/8.7/9.6% for 8s. While the target is under an Attribute Anomaly, this effect is increased by an additional 6/6.9/7.8/8.7/9.6%.",
+            "mainStatus": "Base ATK (Lv 60): 594",
+            "subStatus": "Crit Rate (Lv 60): 20%"
+        },
+        "starlight_engine": {
+            "name": "Starlight Engine",
+            "sprite": "/public/images/w-engines/attack/starlight_engine.webp",
+            "rank": "A",
+            "description": "Launching a Dodge Counter or Quick Assist increases the equipper's ATK by 12/13.8/15.6/17.4/19.2% for 12s.",
+            "mainStatus": "Base ATK (Lv 60): 594",
+            "subStatus": "Attack (Lv 60): 25%"
+        },
+        "starlight_engine_replica": {
+            "name": "Starlight Engine Replica",
+            "sprite": "/public/images/w-engines/attack/starlight_engine_replica.webp",
+            "rank": "A",
+            "description": "Increases the equipper's Physical DMG by 36/41/46.5/52/57.5% for 8s upon hitting an enemy at least 6 meters away with a Basic Attack or Dash Attack.",
+            "mainStatus": "Base ATK (Lv 60): 624",
+            "subStatus": "Attack (Lv 60): 25%"
+        },
+        "street_superstar": {
+            "name": "Street Superstar",
+            "sprite": "/public/images/w-engines/attack/street_superstar.webp",
+            "rank": "A",
+            "description": "Whenever a squad member launches a Chain Attack, the equipper gains a Charge stack, stacking up to 3 times. Upon activating their own Ultimate, the equipper consumes all Charge stacks, and each stack increases the skill's DMG by 15/17.2/19.5/21.7/24%.",
+            "mainStatus": "Base ATK (Lv 60): 594",
+            "subStatus": "Attack (Lv 60): 25%"
+        }
+    },
+    "defense": {
+        "tusks_of_fury": {
+            "name": "Tusks of Fury",
+            "sprite": "/public/images/w-engines/defense/tusks_of_fury.webp",
+            "rank": "S",
+            "description": "The Shield value provided by the equipper increases by 30/38/46/52/60%. When any squad member triggers Interrupt or Perfect Dodge, all squad members' DMG increases by 18/22.5/27/31.5/36% and Daze dealt increases by 12/15/18/21/24% for 20s. Passive effects of the same name do not stack.",
+            "mainStatus": "Base ATK (Lv 60): 713",
+            "subStatus": "Impact (Lv 60): 18%"
+        },
+        "big_cylinder": {
+            "name": "Big Cylinder",
+            "sprite": "/public/images/w-engines/defense/big_cylinder.webp",
+            "rank": "A",
+            "description": "Reduces DMG taken by 7.5/8.5/9.5/10.5/12%. After being attacked, the next attack to hit an enemy will trigger a critical hit and deal 600/690/780/870/960% of the equipper's DEF as additional DMG. This effect can be triggered once every 7.5s.",
+            "mainStatus": "Base ATK (Lv 60): 624",
+            "subStatus": "Defense (Lv 60): 40%"
+        },
+        "bunny_band": {
+            "name": "Bunny Band",
+            "sprite": "/public/images/w-engines/defense/bunny_band.webp",
+            "rank": "A",
+            "description": "Increases Max HP by 8/9.2/10.4/11.6/12.8%. Increases the equipper's ATK by 10/11.5/13/14.5/16% when they are shielded.",
+            "mainStatus": "Base ATK (Lv 60): 594",
+            "subStatus": "Defense (Lv 60): 40%"
+        },
+        "original_transmorpher": {
+            "name": "Original Transmorpher",
+            "sprite": "/public/images/w-engines/defense/original_transmorpher.webp",
+            "rank": "A",
+            "description": "Increases Max HP by 8/9/10/11/12.5%. When attacked, the equipper's Impact is increased by 10/11.5/13/14.5/16% for 12s.",
+            "mainStatus": "Base ATK (Lv 60): 594",
+            "subStatus": "HP (Lv 60): 25%"
+        },
+        "peacekeeper_specialized": {
+            "name": "Peacekeeper - Specialized",
+            "sprite": "/public/images/w-engines/defense/peacekeeper_specialized.webp",
+            "rank": "A",
+            "description": "While Shielded, the equipper's Energy Regen increases by 0.4/s. The Anomaly Buildup of EX Special Attacks and Assist Follow-Ups increase by 36%.",
+            "mainStatus": "Base ATK (Lv 60): 624",
+            "subStatus": "Attack (Lv 60): 25%"
+        },
+        "reel_projector": {
+            "name": "Reel Projector",
+            "sprite": "/public/images/w-engines/defense/reel_projector.webp",
+            "rank": "A",
+            "description": "When a squad member's HP is greater than or equal to 50%, they take 7.5/8.6/9.7/10.8/12% less DMG, and 10/11.5/13/14.5/16% less Miasma Contamination. Only one instance of this effect can exist in the same squad.",
+            "mainStatus": "Base ATK (Lv 60): 594",
+            "subStatus": "Impact (Lv 60): 15%"
+        },
+        "spring_embrace": {
+            "name": "Spring Embrace",
+            "sprite": "/public/images/w-engines/defense/spring_embrace.webp",
+            "rank": "A",
+            "description": "Reduces DMG taken 7.5/8.5/9.5/10.5/12%. When attacked, the equipper's Energy Generation Rate increased by 10/11.5/13/14.5/16% for 12s. When the equipper switches off-field, this buff will be transferred to the new on-field character with its duration refreshed. Passive effects of the same name do not stack.",
+            "mainStatus": "Base ATK (Lv 60): 594",
+            "subStatus": "Attack (Lv 60): 25%"
+        },
+        "tremor_trigram_vessel": {
+            "name": "Tremor Trigram Vessel",
+            "sprite": "/public/images/w-engines/defense/tremor_trigram_vessel.webp",
+            "rank": "A",
+            "description": "The equipper's EX Special Attack and Ultimate DMG increases by 25/28.7/32.5/36.2/40%. Whenever any squad member takes DMG or heals, the equipper gains 2/2.3/2.6/2.9/3.2 Energy. This effect can trigger once every 5s.",
+            "mainStatus": "Base ATK (Lv 60): 624",
+            "subStatus": "Attack (Lv 60): 25%"
+        }
+    },
+    "stun": {
+        "blazing_laurel": {
+            "name": "Blazing Laurel",
+            "sprite": "/public/images/w-engines/stun/blazing_laurel.webp",
+            "rank": "S",
+            "description": "Upon launching a Quick Assist or Perfect Assist, the equipper's Impact increases by 25/28.75/32.5/36.25/40% for 8s. When the equipper launches and hits an enemy with a Basic Attack, apply Wilt to the target for 30s, stacking up to 20 times, repeated triggers reset the duration. When any squad member hits an enemy, for every stack of Wilt applied to the target, the CRIT DMG of the Ice DMG and Fire DMG dealt by that attack increases by 1.5/1.72/1.95/2.17/2.4%. Only one of this effect can be active at a time in the same squad.",
+            "mainStatus": "Base ATK (Lv 60): 713",
+            "subStatus": "Impact (Lv 60): 18%"
+        },
+        "hellfire_gears": {
+            "name": "Hellfire Gears",
+            "sprite": "/public/images/w-engines/stun/hellfire_gears.webp",
+            "rank": "S",
+            "description": "When off-field, the equipper's Energy Regen increases by 0.6/0.75/0.9/1.05/1.2 per second. When using an EX Special Attack, the equipper's Impact is increased by 10/12.5/15/17.5/20% for 10s, stacking up to 2 times. The duration of each stack is calculated separately.",
+            "mainStatus": "Base ATK (Lv 60): 684",
+            "subStatus": "Impact (Lv 60): 18%"
+        },
+        "ice_jade_teapot": {
+            "name": "Ice-Jade Teapot",
+            "sprite": "/public/images/w-engines/stun/ice_jade_teapot.webp",
+            "rank": "S",
+            "description": "When a Basic Attack hits an enemy, gain 1 stack of Tea-riffic. Each stack of Tea-riffic increases the user's Impact by 0.7/0.88/1.05/1.22/1.4%, stacking up to 30 times, and lasting for 8s. The duration of each stack is calculated separately. Upon acquiring Tea-riffic, if the equipper possesses stacks of Tea-riffic greater than or equal to 15, all squad members' DMG is increased by 20/23/26/29/32% for 10s. Passive effects of the same name do not stack.",
+            "mainStatus": "Base ATK (Lv 60): 713",
+            "subStatus": "Impact (Lv 60): 18%"
+        },
+        "roaring_fur-nace": {
+            "name": "Roaring Fur-nace",
+            "sprite": "/public/images/w-engines/stun/roaring_fur-nace.webp",
+            "rank": "S",
+            "description": "The Daze dealt by the equipper's EX Special Attack, Chain Attack, and Ultimate increases by 28/32.2/36.4/40.6/44.8%. When using a Chain Attack or Ultimate to deal Fire DMG, the DMG dealt by all squad members increases by 10/11.5/13/14.5/16%, stacking up to 2 times and lasting 30s. The duration of each stack is calculated separately. Triggers once per use of a skill. Only one instance of this effect can exist in the same squad.",
+            "mainStatus": "Base ATK (Lv 60): 713",
+            "subStatus": "Attack (Lv 60): 30%"
+        },
+        "spectral_gaze": {
+            "name": "Spectral Gaze",
+            "sprite": "/public/images/w-engines/stun/spectral_gaze.webp",
+            "rank": "S",
+            "description": "When the equipper hits an enemy with an Aftershock, causing Electric DMG, the target's DEF is reduced by 25/28.75/32.5/36.25/40% for 5s. Passive effects of the same name do not stack. When this effect is triggered, if the equipper is not the active character, they gain 1 stack of Spirit Lock, up to a maximum of 3 stacks. This can trigger only once per use of a skill. Each stack of Spirit Lock increases the equipper's Impact by 4/4.6/5.2/5.8/6.4%, lasting 12s. The duration of each stack is calculated separately. At full stacks of Spirit Lock, the equipper's Impact increases by an additional 8/9.2/10.4/11.6/12.8%.",
+            "mainStatus": "Base ATK (Lv 60): 713",
+            "subStatus": "Crit Rate (Lv 60): 24%"
+        },
+        "the_restrained": {
+            "name": "The Restrained",
+            "sprite": "/public/images/w-engines/stun/the_restrained.webp",
+            "rank": "S",
+            "description": "When an attack hits an enemy, DMG and Daze from Basic Attacks increase by 6/7.5/9/10.5/12% for 8s, stacking up to 5 times. This effect can trigger at most once during each skill. The duration of each stack is calculated separately.",
+            "mainStatus": "Base ATK (Lv 60): 684",
+            "subStatus": "Impact (Lv 60): 18%"
+        },
+        "box_cutter": {
+            "name": "Box Cutter",
+            "sprite": "/public/images/w-engines/stun/box_cutter.webp",
+            "rank": "A",
+            "description": "Upon launching an Aftershock, the equipper's Physical DMG increases by 15/17.3/19.5/21.8/24%, and Daze inflicted increases by 10/11.5/13/14.5/16%, lasting 10s.",
+            "mainStatus": "Base ATK (Lv 60): 624",
+            "subStatus": "Impact (Lv 60): 15%"
+        },
+        "demara_battery_mark_ii": {
+            "name": "Demara Battery Mark II",
+            "sprite": "/public/images/w-engines/stun/demara_battery_mark_ii.webp",
+            "rank": "A",
+            "description": "Increases Electric DMG by 15/17.5/20/22/24%. When the equipper hits an enemy with Dodge Counter or Assist Attack, their Energy Generation Rate increases by 18/20.5/23/25/27.5% for 8s.",
+            "mainStatus": "Base ATK (Lv 60): 624",
+            "subStatus": "Impact (Lv 60): 15%"
+        },
+        "precious_fossilized_core": {
+            "name": "Precious Fossilized Core",
+            "sprite": "/public/images/w-engines/stun/precious_fossilized_core.webp",
+            "rank": "A",
+            "description": "When the target's HP is no lower than 50%, the equipper inflicts 10/11.5/13/14.5/16% more Daze. When the target's HP is no lower than 75%, this bonus is further enhanced by 10/11.5/13/14.5/16%.",
+            "mainStatus": "Base ATK (Lv 60): 594",
+            "subStatus": "Impact (Lv 60): 15%"
+        },
+        "six_shooter": {
+            "name": "Six Shooter",
+            "sprite": "/public/images/w-engines/stun/six_shooter.webp",
+            "rank": "A",
+            "description": "The equipper gains a Charge stack every 3s, stacking up to 6 times. When launching an EX Special Attack, consumes all Charge stacks, and each stack increases the Daze inflicted by 4/4.6/5.2/5.8/6.4%.",
+            "mainStatus": "Base ATK (Lv 60): 594",
+            "subStatus": "Impact (Lv 60): 15%"
+        },
+        "steam_oven": {
+            "name": "Steam Oven",
+            "sprite": "/public/images/w-engines/stun/steam_oven.webp",
+            "rank": "A",
+            "description": "For every 10 Energy accumulated, the equipper's Impact is increased by 2/2.3/2.6/2.9/3.2%, stacking up to 8 times. After Energy is consumed, this bonus remains for 8 more seconds. The duration of each stack is calculated separately.",
+            "mainStatus": "Base ATK (Lv 60): 594",
+            "subStatus": "Energy Regen (Lv 60): 50%"
+        }
+    },
+    "support": {
+        "elegant_vanity": {
+            "name": "Elegant Vanity",
+            "sprite": "/public/images/w-engines/support/elegant_vanity.webp",
+            "rank": "S",
+            "description": "When any squad member enters the field through a Quick Assist, Chain Attack, Defensive Assist, or Evasive Assist, the equipper gains 5/5.5/6/6.5/7 Energy. This effect can trigger once every 5s. When the equipper consumes 25 or more Energy, the DMG dealt by all squad members increases by 10/11.5/13/14.5/16%, stacking up to 2 times, and lasting 20s. Repeated triggers refresh the duration. Only one instance of this effect can exist in the same squad.",
+            "mainStatus": "Base ATK (Lv 60): 713",
+            "subStatus": "Attack (Lv 60): 30%"
+        },
+        "metanukimorphosis": {
+            "name": "Metanukimorphosis",
+            "sprite": "/public/images/w-engines/support/metanukimorphosis.webp",
+            "rank": "S",
+            "description": "When the equipper's EX Special Attack or Ultimate deals Physical DMG, their Anomaly Mastery increases by 30/34/39/43/48 for 40s. When the equipper's Aftershock hits an enemy, all squad members' Anomaly Proficiency increases by 60/69/78/87/98 for 40s. Only one instance of this effect can exist in the same squad.",
+            "mainStatus": "Base ATK (Lv 60): 713",
+            "subStatus": "Energy Regen (Lv 60): 60%"
+        },
+        "bashful_demon": {
+            "name": "Bashful Demon",
+            "sprite": "/public/images/w-engines/support/bashful_demon.webp",
+            "rank": "A",
+            "description": "Increases Ice DMG by 15/17.5/20/22/24%. When launching an EX Special Attack, all squad members' ATK increases by 2/2.3/2.6/2.9/3.2% for 12s, stacking up to 4 times. Retriggering refreshes duration. Passive effects of the same name do not stack.",
+            "mainStatus": "Base ATK (Lv 60): 624",
+            "subStatus": "Attack (Lv 60): 25%"
+        },
+        "slice_of_time": {
+            "name": "Slice of Time",
+            "sprite": "/public/images/w-engines/support/slice_of_time.webp",
+            "rank": "A",
+            "description": "Any squad members' Dodge Counter, EX Special Attack, Assist Attack, or Chain Attack respectively generates 20/23/26/29/32 (Dodge) | 25/28.5/32/35.5/40 (Special) | 30/34.5/39/43.5/48 (Assist) | 35/40/45/50/55 (Chain) more Decibels and generates 0.7/0.8/0.9/1/1.1 Energy for the equipper. This effect can trigger once every 12s. The cooldown for each type of attack is independent of others. Passive effects of the same name do not stack.",
+            "mainStatus": "Base ATK (Lv 60): 594",
+            "subStatus": "PEN Ratio (Lv 60): 20%"
+        },
+        "the_vault": {
+            "name": "The Vault",
+            "sprite": "/public/images/w-engines/support/the_vault.webp",
+            "rank": "A",
+            "description": "Dealing Ether DMG using an EX Special Attack, Chain Attack, or Ultimate increases all squad members' DMG against the target by 15/17.5/20/22/24% and increases the equipper's Energy Regen by 0.5/0.58/0.65/0.72/0.8 per second for 2s. Passive effects of the same name do not stack.",
+            "mainStatus": "Base ATK (Lv 60): 624",
+            "subStatus": "Energy Regen (Lv 60): 50%"
+        },
+        "unfettered_game_ball": {
+            "name": "Unfettered Game Ball",
+            "sprite": "/public/images/w-engines/support/unfettered_game_ball.webp",
+            "rank": "A",
+            "description": "Whenever the equipper's attack triggers an Attribute Counter effect, all squad members' CRIT Rate against the struck enemy increases by 12/13.5/15.5/17.5/20% for 12s. The bonuses triggered by the same type of passive effects do not stack.",
+            "mainStatus": "Base ATK (Lv 60): 594",
+            "subStatus": "Energy Regen (Lv 60): 50%"
+        }
+    },
+    "rupture": {
+        "qingming_birdcage": {
+            "name": "Qingming Birdcage",
+            "sprite": "/public/images/w-engines/rupture/qingming_birdcage.webp",
+            "rank": "S",
+            "description": "CRIT Rate increases by 20/23/26/29/32%. When the equipper launches an EX Special Attack, the character gains the Qingming Companion effect, stacking up to 2 times and lasting 15s. On entering combat, immediately gain 2 stacks. Repeated triggers reset the duration. Each stack of the Qingming Companion effect increases the equipper's Ether DMG by 8/9.2/10.4/11.6/12.8%, and increases Ultimate and EX Special Attack Ether Sheer DMG by 10/11.5/13/14.5/16%.",
+            "mainStatus": "Base ATK (Lv 60): 743",
+            "subStatus": "HP (Lv 60): 30%"
+        },
+        "puzzle_sphere": {
+            "name": "Puzzle Sphere",
+            "sprite": "/public/images/w-engines/rupture/puzzle_sphere.webp",
+            "rank": "A",
+            "description": "Upon launching an EX Special Attack, the equipper's CRIT DMG increases by 16/18.4/20.8/23.2/25.6% for 12s. Additionally, if the target's current HP is below 50% of their Max HP, EX Special Attack DMG increases by 20/23/26/29/32%.",
+            "mainStatus": "Base ATK (Lv 60): 594",
+            "subStatus": "Attack (Lv 60): 25%"
+        },
+        "radiowave_journey": {
+            "name": "Radiowave Journey",
+            "sprite": "/public/images/w-engines/rupture/radiowave_journey.webp",
+            "rank": "A",
+            "description": "When launching a Chain Attack or Ultimate, the equipper gains 1 stack of a buff effect. Each stack increases the equipper's Sheer Force by 80/92/104/116/128, stacking up to 3 times, and lasting 12s. The duration of each stack is calculated separately.",
+            "mainStatus": "Base ATK (Lv 60): 594",
+            "subStatus": "HP (Lv 60): 25%"
+        }
     }
 }

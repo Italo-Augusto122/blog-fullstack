@@ -24,9 +24,28 @@
             "rainforest_gourmet",
             "weeping_gemini"
         ],
-        "teams": [
-            "burnice"
-        ]
+        "teams": {
+            "team1": [
+                "miyabi",
+                "yuzuha",
+                "astra"
+            ],
+            "team2": [
+                "miyabi",
+                "yanagi",
+                "astra"
+            ],
+            "team3": [
+                "miyabi",
+                "vivian",
+                "yuzuha"
+            ],
+            "team4": [
+                "miyabi",
+                "lycaon",
+                "soukaku"
+            ]
+        }
     },
 
     "evelyn": {

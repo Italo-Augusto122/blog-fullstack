@@ -8,7 +8,7 @@
         "type": "anomaly",
         "sprite": "/public/images/characters/miyabi/miyabi-selector-icon.png",
         "element": "frost",
-        "description": "Chefe da Seção 6 de Operações Especiais Hollow e sucessora de uma renomada família de artes marciais em New Eridu. Com seu forte senso de responsabilidade em proteger os princípios e a ordem dentro de New Eridu, Miyabi aspira construir um sistema de gestão da cidade inquebrável... e possuir uma coleção considerável de espadas (palavras dela).",
+        "description": "The youngest Void Hunter to date and Chief of Hollow Special Operations Section 6, Hoshimi Miyabi is a woman who defies the status quo and uses Tailless, her family heirloom's cursed blade, to protect the city of New Eridu and unveil the corruption within it. Although she's the chief of Section 6, Miyabi does little work related to it, with bureaucratic tasks being handled by Deputy Chief Tsukishiro Yanagi.",
         "baseStats": [
             7673,
             855,
@@ -57,25 +57,48 @@
         "type": "attack",
         "sprite": "/public/images/characters/evelyn/evelyn-selector-icon.png",
         "element": "fire",
-        "description": "",
+        "description": "Evelyn serves as the bodyguard and manager for Astra Yao, and as such has to micromanage both of their lives consistently due to Astra's busy schedule. She is often quite serious and no nonsense, being well guarded around others (an attitude developed during her prior career as part of The Organization), though she is notably more relaxed around Astra and the Phaethon siblings due to their time spent together.",
         "baseStats": [
-            7673,
-            855,
-            606,
-            86,
-            116,
-            148
+            7788,
+            854,
+            612,
+            93,
+            92,
+            90
         ],
         "wEngines": [
-            "assinatura"
+            "heartstring_nocturne",
+            "zanshin_herb_case",
+            "the_brimstone",
+            "marcato_desire",
+            "starlight_engine"
         ],
-        "teams": [
-            "personagem"
-        ]
+        "teams": {
+            "team1": [
+                "evelyn",
+                "lighter",
+                "astra"
+            ],
+            "team2": [
+                "evelyn",
+                "nicole",
+                "astra"
+            ],
+            "team3": [
+                "evelyn",
+                "koleda",
+                "astra"
+            ],
+            "team4": [
+                "evelyn",
+                "koleda",
+                "lucy"
+            ]
+        }
     },
 
     "vivian": {
-        "fullName": "Vivian",
+        "fullName": "Vivian Banshee",
         "name": "vivian",
         "rank": "S",
         "tier": "0",
@@ -83,47 +106,94 @@
         "type": "anomaly",
         "sprite": "/public/images/characters/vivian/vivian-selector-icon.png",
         "element": "eter",
-        "description": "",
+        "description": "Vivian stands out for her ability to switch between the 'Flowing Gown' and 'Noblewoman' states to generate and consume feathers, unleashing her full potential, and for her ability to amplify Corrosion and Disorder damage for the team.",
         "baseStats": [
             7673,
-            855,
+            805,
             606,
             86,
-            116,
-            148
+            108,
+            118
         ],
         "wEngines": [
-            "assinatura"
+            "flight_of_fancy",
+            "weeping_gemini",
+            "electro_lip_gloss",
+            "rainforest_gourmet",
+            "timeweaver",
+            "fusion_compiler"
         ],
-        "teams": [
-            "personagem"
-        ]
+        "teams": {
+            "team1": [
+                "miyabi",
+                "vivian",
+                "astra"
+            ],
+            "team2": [
+                "jane",
+                "vivian",
+                "burnice"
+            ],
+            "team3": [
+                "piper",
+                "vivian",
+                "lucy"
+            ]
+        }
     },
 
-    "lither": {
-        "fullName": "Lither",
-        "name": "lither",
+    "lighter": {
+        "fullName": "Lighter",
+        "name": "lighter",
         "rank": "S",
         "tier": "0",
         "category": "stun",
         "type": "stun",
-        "sprite": "/public/images/characters/lither/lither-selector-icon.png",
+        "sprite": "/public/images/characters/lighter/lighter-selector-icon.png",
         "element": "fire",
-        "description": "",
+        "description": "The 'Red Scarf' and Champion of the Sons of Calydon, Lighter is an incredibly skilled fighter having experience from his time as a mercenary and underground fighter. Armed with an engine powered gauntlet, his duty is to fight the Champions of other biker gangs, a task he excels in, given he calls himself 'the undefeated Champion.'",
         "baseStats": [
-            7673,
-            855,
-            606,
-            86,
-            116,
-            148
+            8253,
+            722,
+            612,
+            119,
+            91,
+            90
         ],
         "wEngines": [
-            "assinatura"
+            "blazing_laurel",
+            "ice_jade_teapot",
+            "hellfire_gears",
+            "precious_fossilized_core",
+            "the_restrained"
         ],
-        "teams": [
-            "personagem"
-        ]
+        "teams": {
+            "team1": [
+                "evelyn",
+                "lighter",
+                "astra"
+            ],
+            "team2": [
+                "miyabi",
+                "lighter",
+                "astra"
+            ],
+            "team3": [
+                "hugo",
+                "lighter",
+                "lycaon"
+            ],
+            "team4": [
+                "ellen",
+                "lighter",
+                "lycaon"
+            ],
+            "team5": [
+                "soldier11",
+                "lighter",
+                "lucy"
+            ]
+        }
     },
 
     "astra": {
@@ -135,20 +205,538 @@
         "type": "support",
         "sprite": "/public/images/characters/astra/astra-selector-icon.png",
         "element": "eter",
-        "description": "",
+        "description": "'The Queen' of New Eridu, Astra Yao is a multitalented celebrity mainly known for her singing prowess and impact she had on Ridu's music scene. Examples of her musical prowess include 'The Ultimate Voice', which led to a live album from that concert and a videotape labeled 'f.f.' being released afterwards, the album 'Monologue', with the final song being a compilation of interviews she did for the 'Jealous' Magazine, and 'Stars of Lyra', Astra's first album she recorded before her big debut.",
         "baseStats": [
-            7673,
-            855,
-            606,
-            86,
-            116,
-            148
+            8609,
+            640,
+            600,
+            83,
+            93,
+            92
         ],
         "wEngines": [
-            "assinatura"
+            "elegant_vanity",
+            "bashful_demon",
+            "kaboom_the_cannon",
+            "the_vault"
         ],
-        "teams": [
-            "personagem"
-        ]
+        "teams": {
+            "team1": [
+                "miyabi",
+                "yanagi",
+                "astra"
+            ],
+            "team2": [
+                "yixuan",
+                "jufufu",
+                "astra"
+            ],
+            "team3": [
+                "evelyn",
+                "lighter",
+                "astra"
+            ],
+            "team4": [
+                "evelyn",
+                "nicole",
+                "astra"
+            ]
+        }
+    },
+    "yixuan": {
+        "fullName": "Yixuan",
+        "name": "yixuan",
+        "rank": "S",
+        "tier": "0",
+        "category": "main_dps",
+        "type": "rupture",
+        "sprite": "/public/images/characters/yixuan/yixuan-selector-icon.png",
+        "element": "auric",
+        "description": "Yixuan is the eccentric thirteenth-generation master of Yunkui Summit. She is currently affiliated with the Hollow Investigative Association as a Void Hunter-level investigator and is acquainted with Mayor Mayflower. She and her disciples practice a craft similar to the abilities Phaethon gained after the Mayor's update to the Hollow Deep Dive System",
+        "baseStats": [
+            7953,
+            872,
+            441,
+            93,
+            92,
+            90
+        ],
+        "wEngines": [
+            "qingming_birdcage",
+            "zanshin_herb_case",
+            "steel_cushion",
+            "radiowave_journey",
+            "puzzle_sphere"
+        ],
+        "teams": {
+            "team1": [
+                "yixuan",
+                "pan",
+                "jufufu"
+            ],
+            "team2": [
+                "yixuan",
+                "pan",
+                "trigger"
+            ],
+            "team3": [
+                "yixuan",
+                "trigger",
+                "astra"
+            ]
+        }
+    },
+    "yuzuha": {
+        "fullName": "Ukinami Yuzuha",
+        "name": "yuzuha",
+        "rank": "S",
+        "tier": "0",
+        "category": "support",
+        "type": "support",
+        "sprite": "/public/images/characters/yuzuha/yuzuha-selector-icon.png",
+        "element": "physic",
+        "description": "Ukinami Yuzuha, a resident of Waifei Peninsula's Failume Heights, currently attends a low-tuition company affiliated school in the city. Aside from being part of the Inter-Knot subforum Spook Shack, she's not affiliated with any other groups — though in New Eridu, such forums aren't typically seen as formal organizations, and are, instead, more like hobby clubs.",
+        "baseStats": [
+            8829,
+            683,
+            612,
+            86,
+            88,
+            93
+        ],
+        "wEngines": [
+            "metanukimorphosis",
+            "kaboom_the_cannon",
+            "weeping_cradle",
+            "elegant_vanity",
+            "unfettered_game_ball"
+        ],
+        "teams": {
+            "team1": [
+                "miyabi",
+                "vivian",
+                "yuzuha"
+            ],
+            "team2": [
+                "jane",
+                "vivian",
+                "yuzuha"
+            ],
+            "team3": [
+                "yanagi",
+                "burnice",
+                "yuzuha"
+            ]
+        }
+    },
+    "alice": {
+        "fullName": "Alice",
+        "name": "alice",
+        "rank": "S",
+        "tier": "0-5",
+        "category": "main_dps",
+        "type": "anomaly",
+        "sprite": "/public/images/characters/alice/alice-selector-icon.png",
+        "element": "physic",
+        "description": "One of the last remaining survivors of the Thymefield Family, Alice Thymefield is a young lady who currently attends the Celestia School for Girls, whilst being exceptional in fencing (her main form of combat) and Ether science. She is wildly obsessed with symmetry, especially after her father, Lionel Thymefield's death, which made her subconsciously believe that asymmetry could lead to disaster.",
+        "baseStats": [
+            7673,
+            805,
+            606,
+            86,
+            100,
+            132
+        ],
+        "wEngines": [
+            "practiced_perfection",
+            "sharpened_stinger",
+            "fusion_compiler",
+            "weeping_gemini",
+            "electro_lip_gloss"
+        ],
+        "teams": {
+            "team1": [
+                "alice",
+                "vivian",
+                "yuzuha"
+            ],
+            "team2": [
+                "alice",
+                "astra",
+                "yuzuha"
+            ],
+            "team3": [
+                "alice",
+                "jane",
+                "yuzuha"
+            ]
+        }
+    },
+    "hugo": {
+        "fullName": "Hugo Vlad",
+        "name": "hugo",
+        "rank": "S",
+        "tier": "0-5",
+        "category": "main_dps",
+        "type": "attack",
+        "sprite": "/public/images/characters/hugo/hugo-selector-icon.png",
+        "element": "ice",
+        "description": "Born as the illegitimate child to the head of the infamous Ravenlock Family and a commoner mother, Hugo Vlad's life was full of despair since the day he was born. Due to noble blood running through his veins, Hugo's heterochromia was a subject of strife to his mother, believing that because of it, Hugo's father left her. She saw his heterochromia as an imperfection, and later tried to gouge his paler eye out in hopes of killing him. Years later, Hugo's mother sold him to the Ravenlock Family and started a new life with the money. Though now in the hands of a prestigous family, Hugo was still treated horribly by the rest of his family; including their servants.",
+        "baseStats": [
+            7940,
+            844,
+            616,
+            95,
+            86,
+            90
+        ],
+        "wEngines": [
+            "myriad_eclipse",
+            "deep_sea_visitor",
+            "heartstring_nocturne",
+            "zanshin_herb_case",
+            "severed_innocence",
+            "riot_suppressor_mark_vi",
+            "marcato_desire",
+            "gilded_blossom"
+        ],
+        "teams": {
+            "team1": [
+                "hugo",
+                "lither",
+                "jufufu"
+            ],
+            "team2": [
+                "hugo",
+                "lither",
+                "lycaon"
+            ],
+            "team3": [
+                "hugo",
+                "lither",
+                "astra"
+            ],
+            "team4": [
+                "hugo",
+                "lycaon",
+                "soukaku"
+            ]
+        }
+    },
+    "burnice": {
+        "fullName": "Burnice White",
+        "name": "burnice",
+        "rank": "S",
+        "tier": "0-5",
+        "category": "sub_dps",
+        "type": "anomaly",
+        "sprite": "/public/images/characters/burnice/burnice-selector-icon.png",
+        "element": "fire",
+        "description": "Mixologist, fuel chemist, pyromaniac. Burnice White can be considered the jack of all-trade of the Sons of Calydon. From creating the special fuel the gang uses for their machinery, to serving up exotic cocktails; both utilizing her favorite drink: Nitro-Fuel, and in-Hollow combat, where she fights up close or from mid-range with her personally made flamethrowers, Mixer and Shaker.",
+        "baseStats": [
+            7368,
+            788,
+            600,
+            83,
+            118,
+            120
+        ],
+        "wEngines": [
+            "flamemaker_shaker",
+            "electro_lip_gloss",
+            "fusion_compiler",
+            "weeping_gemini",
+            "rainforest_gourmet",
+            "roaring_ride"
+        ],
+        "teams": {
+            "team1": [
+                "miyabi",
+                "burnice",
+                "yuzuha"
+            ],
+            "team2": [
+                "yanagi",
+                "burnice",
+                "vivian"
+            ],
+            "team3": [
+                "piper",
+                "burnice",
+                "lucy"
+            ]
+        }
+    },
+    "yanagi": {
+        "fullName": "Tsukishiro Yanagi",
+        "name": "yanagi",
+        "rank": "S",
+        "tier": "0-5",
+        "category": "sub_dps",
+        "type": "anomaly",
+        "sprite": "/public/images/characters/yanagi/yanagi-selector-icon.png",
+        "element": "eletric",
+        "description": "The Deputy Chief of Hollow Special Operations Section 6, Tsukishiro Yanagi is an ex-soldier from the New Eridu Defense Force who has been infused with Oni blood.[1] Her main jobs include general management, on-site support and being the guardian of her fellow member Soukaku; alongside all these duties, she usually finds herself having to complete the rest of the team's tasks as well. Due to the unique personalities of the other Section 6 members, Yanagi's seriousness and diligence classify her as the only 'normal' member of the team. It is with her guidance, experience, and leadership that the primary on-field group's powers combine into true combat power.",
+        "baseStats": [
+            7788,
+            797,
+            612,
+            86,
+            112,
+            114
+        ],
+        "wEngines": [
+            "timeweaver",
+            "electro_lip_gloss",
+            "fusion_compiler",
+            "weeping_gemini",
+            "rainforest_gourmet"
+        ],
+        "teams": {
+            "team1": [
+                "miyabi",
+                "yanagi",
+                "yuzuha"
+            ],
+            "team2": [
+                "yanagi",
+                "trigger",
+                "astra"
+            ],
+            "team3": [
+                "yanagi",
+                "burnice",
+                "yuzuha"
+            ]
+        }
+    },
+    "jufufu": {
+        "fullName": "Ju Fufu",
+        "name": "jufufu",
+        "rank": "S",
+        "tier": "0-5",
+        "category": "stun",
+        "type": "stun",
+        "sprite": "/public/images/characters/jufufu/jufufu-selector-icon.png",
+        "element": "fire",
+        "description": "Ju Fufu is a powerful mystic who takes great pride in her work and in her nature as a tiger Thiren. She is the most senior disciple of Yunkui Summit, though often gets annoyed with people assuming she's a kid when in practice she's just short in stature. She holds strong convictions and carries herself as a warrior of justice; one capable of dispatching evil wherever it should lurk.",
+        "baseStats": [
+            8250,
+            690,
+            597,
+            118,
+            93,
+            96
+        ],
+        "wEngines": [
+            "roaring_fur_nace",
+            "blazing_laurel",
+            "hellfire_gears",
+            "precious_fossilized_core"
+        ],
+        "teams": {
+            "team1": [
+                "yixuan",
+                "pan",
+                "jufufu"
+            ],
+            "team2": [
+                "hugo",
+                "lither",
+                "jufufu"
+            ],
+            "team3": [
+                "evelyn",
+                "jufufu",
+                "astra"
+            ]
+        }
+    },
+    "lycaon": {
+        "fullName": "Van Lycaon",
+        "name": "lycaon",
+        "rank": "S",
+        "tier": "0-5",
+        "category": "stun",
+        "type": "stun",
+        "sprite": "/public/images/characters/lycaon/lycaon-selector-icon.png",
+        "element": "ice",
+        "description": "Lycaon, the substantive leader and representative of Victoria Housekeeping Co., is responsible for managing all members of the company. Rational and reliable, Lycaon is an elegant gentleman and a versatile attendant who can solve any problem. He is the cornerstone of his team and a reassuring presence. He has a slight obsession with cleanliness, always tidying up his surroundings and unable to tolerate dirty environments.",
+        "baseStats": [
+            8416,
+            653,
+            606,
+            119,
+            90,
+            91
+        ],
+        "wEngines": [
+            "hellfire_gears",
+            "precious_fossilized_core",
+            "the_restrained"
+        ],
+        "teams": {
+            "team1": [
+                "miyabi",
+                "lycaon",
+                "soukaku"
+            ],
+            "team2": [
+                "hugo",
+                "lither",
+                "lycaon"
+            ],
+            "team3": [
+                "ellen",
+                "lycaon",
+                "soukaku"
+            ],
+            "team4": [
+                "corin",
+                "nicole",
+                "lucy"
+            ]
+        }
+    },
+    "nicole": {
+        "fullName": "Nicole Demara",
+        "name": "nicole",
+        "rank": "A",
+        "tier": "0-5",
+        "category": "support",
+        "type": "support",
+        "sprite": "/public/images/characters/nicole/nicole-selector-icon.png",
+        "element": "eter",
+        "description": "Nicole Demara is the founder and current leader of the Cunning Hares odd-job agency. Despite taking on any and all Hollow-related commissions and typically charging a high commission fee, she struggles with finances, leading the Cunning Hares to frequently be in debt, sometimes bordering on bankruptcy. Due to this and her all-or nothing approach, the Cunning Hares have become somewhat infamous in the space, with many clients blacklisting her completely and reviews received on Inter-Knot painting her in an unflattering light.",
+        "baseStats": [
+            8145,
+            574,
+            622,
+            88,
+            93,
+            90
+        ],
+        "wEngines": [
+            "the_vault",
+            "weeping_cradle",
+            "kaboom_the_cannon",
+            "slice_of_time",
+            "unfettered_game_ball"
+        ],
+        "teams": {
+            "team1": [
+                "miyabi",
+                "nicole",
+                "astra"
+            ],
+            "team2": [
+                "zhu",
+                "gingyi",
+                "nicole"
+            ],
+            "team3": [
+                "nekomata",
+                "anby",
+                "nicole"
+            ]
+        }
+    },
+    "soukaku": {
+        "fullName": "Soukaku",
+        "name": "soukaku",
+        "rank": "A",
+        "tier": "0-5",
+        "category": "support",
+        "type": "support",
+        "sprite": "/public/images/characters/soukaku/soukaku-selector-icon.png",
+        "element": "ice",
+        "description": "Soukaku is the gluttonous, childlike Oni of Hollow Special Operations Section 6. She's a powerful combatant who uses a custom made weapon known as an 'Oni Blade Banner' in battle. Outside of battle, Soukaku has a notable interest in food, caring little about what she eats and hating when food is wasted.",
+        "baseStats": [
+            8025,
+            590,
+            597,
+            86,
+            93,
+            96
+        ],
+        "wEngines": [
+            "bashful_demon",
+            "weeping_cradle",
+            "kaboom_the_cannon",
+            "slice_of_time",
+            "unfettered_game_ball"
+        ],
+        "teams": {
+            "team1": [
+                "miyabi",
+                "lither",
+                "soukaku"
+            ],
+            "team2": [
+                "miyabi",
+                "lycaon",
+                "soukaku"
+            ],
+            "team3": [
+                "ellen",
+                "nicole",
+                "soukaku"
+            ]
+        }
+    },
+    "trigger": {
+        "fullName": "Trigger",
+        "name": "trigger",
+        "rank": "S",
+        "tier": "0-5",
+        "category": "stun",
+        "type": "stun",
+        "sprite": "/public/images/characters/trigger/trigger-selector-icon.png",
+        "element": "eletric",
+        "description": "A nigh-blind sniper and frontline survivor of the old capital's fall, Trigger is a member of Obol Squad, where she uses her array of close-range, sharpshooting and stealth skills obtained from her time at Lyre Squad along with an ability gained from her corrupted eyesight dubbed 'Ether Vision' and heightened senses in hopes of finding the true culprits behind Eridu's fall.",
+        "baseStats": [
+            7923,
+            750,
+            600,
+            131,
+            96,
+            95
+        ],
+        "wEngines": [
+            "spectral_gaze",
+            "blazing_laurel",
+            "ice_jade_teapot",
+            "the_restrained",
+            "precious_fossilized_core",
+            "steam_oven",
+            "hellfire_gears"
+        ],
+        "teams": {
+            "team1": [
+                "anby0",
+                "trigger",
+                "astra"
+            ],
+            "team2": [
+                "yanagi",
+                "trigger",
+                "astra"
+            ],
+            "team3": [
+                "miyabi",
+                "yanagi",
+                "trigger"
+            ],
+            "team4": [
+                "evelyn",
+                "trigger",
+                "astra"
+            ],
+            "team5": [
+                "hugo",
+                "trigger",
+                "lither"
+            ]
+        }
     }
 }

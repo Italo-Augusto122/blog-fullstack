@@ -12,7 +12,7 @@ fetch("./src/json/characters.json")
             const row = table.querySelector(`.t${tier}`);
             const column = row.querySelector(`.${category}`);
 
-            column.innerHTML = `
+            column.innerHTML += `
             <div class="char">
                 <a href="./src/pages/character.html?name=${data[firstCharKey].name}">
                     <img class="selector-icon"

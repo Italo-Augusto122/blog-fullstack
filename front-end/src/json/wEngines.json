@@ -310,7 +310,7 @@
             "mainStatus": "Base ATK (Lv 60): 713",
             "subStatus": "Impact (Lv 60): 18%"
         },
-        "roaring_fur-nace": {
+        "roaring_fur_nace": {
             "name": "Roaring Fur-nace",
             "sprite": "/public/images/w-engines/stun/roaring_fur-nace.webp",
             "rank": "S",

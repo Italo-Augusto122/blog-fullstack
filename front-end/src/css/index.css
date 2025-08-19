@@ -17,31 +17,6 @@ hr {
     width: 100%;
 }
 
-header {
-    position: sticky;
-    top: 0;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    background-color: rgb(15, 15, 15);
-    color: #fff;
-    justify-content: space-between;
-    padding: 5px 50px;
-    z-index: 10;
-}
-
-header div {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-}
-
-header .game-icon {
-    max-width: 50px;
-    border-radius: 10px;
-}
-
 main {
     background-color: #272727;
     width: 90vw;
@@ -133,11 +108,13 @@ section#characters h1 {
 
 .tier_list table td {
     padding: 40px 10px;
+    flex-wrap: wrap;
 }
 
 .tier_list table .char {
     display: flex;
     justify-content: space-around;
+    margin: 25px 0;
 }
 
 .tier_list table .char a {
@@ -149,6 +126,12 @@ section#characters h1 {
     background-color: rgb(205, 177, 100);
     padding: 3px 0 5px 0;
     border-radius: 27px 0 0 0;
+    transition: all 0.3s ease-in-out;
+}
+
+.tier_list table .char a:hover {
+    background-color: rgb(255, 196, 86);
+    transform: scale(1.2);
 }
 
 .tier_list table .t0 .rank {
@@ -188,32 +171,4 @@ section#characters h1 {
 
 .selector-icon {
     max-width: 150px;
-}
-
-footer {
-    background-color: rgb(15, 15, 15);
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-}
-
-footer .hoyoverse-logo {
-    max-width: 500px;
-}
-
-footer .plataformas {
-    color: #fff;
-    line-height: 50px;
-    font-size: 20px;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-}
-
-footer .logos-plataformas {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    gap: 20px;
 }

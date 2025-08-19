@@ -631,7 +631,7 @@
             ],
             "team2": [
                 "zhu",
-                "gingyi",
+                "qingyi",
                 "nicole"
             ],
             "team3": [
@@ -735,6 +735,476 @@
             "team5": [
                 "hugo",
                 "trigger",
+                "lither"
+            ]
+        }
+    },
+    "anby0": {
+        "fullName": "Soldier 0 - Anby",
+        "name": "anby0",
+        "rank": "S",
+        "tier": "1",
+        "category": "main_dps",
+        "type": "attack",
+        "sprite": "/public/images/characters/anby0/anby0-selector-icon.png",
+        "element": "eletric",
+        "description": "Captain of the long-defunct Silver Squad, Soldier 0, now known as Anby Demara, is a skilled soldier proficient in tactics and swordplay. Once considered as an expendable unit of the Obsidian Division, Anby now lives a relatively simpler life as a member of the odd-job agency Cunning Hares, where she is treated humanely and nurtures friendships.",
+        "baseStats": [
+            7673,
+            854,
+            612,
+            93,
+            94,
+            93
+        ],
+        "wEngines": [
+            "severed_innocence",
+            "heartstring_nocturne",
+            "zanshin_herb_case",
+            "riot_suppressor_mark_vi",
+            "marcato_desire",
+            "starlight_engine",
+            "the_brimstone"
+        ],
+        "teams": {
+            "team1": [
+                "anby0",
+                "trigger",
+                "astra"
+            ],
+            "team2": [
+                "anby0",
+                "caesar",
+                "astra"
+            ],
+            "team3": [
+                "anby0",
+                "trigger",
+                "pulchra"
+            ],
+            "team4": [
+                "anby0",
+                "pulchra",
+                "lucy"
+            ]
+        }
+    },
+    "ellen": {
+        "fullName": "Ellen Joe",
+        "name": "ellen",
+        "rank": "S",
+        "tier": "1",
+        "category": "main_dps",
+        "type": "attack",
+        "sprite": "/public/images/characters/ellen/ellen-selector-icon.png",
+        "element": "ice",
+        "description": "Ellen Joe is a laid-back Shark Thiren that attends school in New Eridu who hates activities that require energy. Despite her personality and aloofness, Ellen is a significantly popular student at the school, though she prefers spending time with fellow students Ruby, Monna, and Lynn at karaoke bars, Godfinger and more.",
+        "baseStats": [
+            7673,
+            863,
+            606,
+            93,
+            94,
+            93
+        ],
+        "wEngines": [
+            "deep_sea_visitor",
+            "myriad_eclipse",
+            "heartstring_nocturne",
+            "the_brimstone",
+            "zanshin_herb_case",
+            "severed_innocence",
+            "riot_suppressor_mark_vi",
+            "starlight_engine",
+            "marcato_desire"
+        ],
+        "teams": {
+            "team1": [
+                "ellen",
+                "lither",
+                "astra"
+            ],
+            "team2": [
+                "ellen",
+                "trigger",
+                "lither"
+            ],
+            "team3": [
+                "ellen",
+                "lycaon",
+                "soukaku"
+            ]
+        }
+    },
+    "jane": {
+        "fullName": "Jane Doe",
+        "name": "jane",
+        "rank": "S",
+        "tier": "1",
+        "category": "main_dps",
+        "type": "anomaly",
+        "sprite": "/public/images/characters/jane/jane-selector-icon.png",
+        "element": "physic",
+        "description": "Jane, a criminal behavior specialist, has had a 'colorful' career as a consultant with Public Security over the years. She is an expert in disguise, infiltration, and other investigative work. She has a bad habit of trolling others and sometimes plays harmless pranks. She's a skilled mimic, able to change her appearance and demeanor at will, making people wonder what the 'real' Jane is like.",
+        "baseStats": [
+            7788,
+            805,
+            606,
+            86,
+            150,
+            112
+        ],
+        "wEngines": [
+            "sharpened_stinger",
+            "electro_lip_gloss",
+            "weeping_gemini",
+            "rainforest_gourmet",
+            "fusion_compiler"
+        ],
+        "teams": {
+            "team1": [
+                "jane",
+                "vivian",
+                "yuzuha"
+            ],
+            "team2": [
+                "jane",
+                "burnice",
+                "astra"
+            ],
+            "team3": [
+                "jane",
+                "burnice",
+                "caesar"
+            ],
+            "team4": [
+                "jane",
+                "trigger",
+                "seth"
+            ],
+            "team5": [
+                "jane",
+                "seth",
+                "nicole"
+            ]
+        }
+    },
+    "piper": {
+        "fullName": "Piper Wheel",
+        "name": "piper",
+        "rank": "A",
+        "tier": "1",
+        "category": "main_dps",
+        "type": "anomaly",
+        "sprite": "/public/images/characters/piper/piper-selector-icon.png",
+        "element": "physic",
+        "description": "Piper is a truck driver for the Sons of Calydon. Apart from driving, she's also responsible for vehicle maintenance and other related jobs. Her tiny stature, cute voice (though she always seems half-asleep when not driving), and adorably harmless appearance (though she's a shut-in who can't be bothered to take care of her own appearance) make it hard to imagine that she would have such a crazy driving style.",
+        "baseStats": [
+            6976,
+            683,
+            612,
+            86,
+            116,
+            118
+        ],
+        "wEngines": [
+            "roaring_ride",
+            "electro_lip_gloss",
+            "fusion_compiler",
+            "weeping_gemini",
+            "rainforest_gourmet"
+        ],
+        "teams": {
+            "team1": [
+                "piper",
+                "vivian",
+                "yuzuha"
+            ],
+            "team2": [
+                "piper",
+                "burnice",
+                "astra"
+            ],
+            "team3": [
+                "miyabi",
+                "piper",
+                "astra"
+            ],
+            "team4": [
+                "piper",
+                "koleda",
+                "lucy"
+            ]
+        }
+    },
+    "zhu": {
+        "fullName": "Zhu Yuan",
+        "name": "zhu",
+        "rank": "S",
+        "tier": "1",
+        "category": "main_dps",
+        "type": "attack",
+        "sprite": "/public/images/characters/zhu/zhu-selector-icon.png",
+        "element": "eter",
+        "description": "Officer 148; Zhu Yuan, is an exceptional PubSec officer and current captain of the Criminal Investigation Special Response Team. A skilled martial artist and sharpshooter, Zhu Yuan uses the custom-made and versatile 'Suppressor K22' firearm in conjunction with swift punches and kicks to take down criminals. As a reputable officer, Zhu Yuan has a strict moral compass, looking down on criminals, but is shown to be okay with taking the assistance of Proxies if the situation calls for it.",
+        "baseStats": [
+            7482,
+            844,
+            600,
+            90,
+            102,
+            102
+        ],
+        "wEngines": [
+            "riot_suppressor_mark_vi",
+            "the_brimstone",
+            "zanshin_herb_case",
+            "starlight_engine",
+            "marcato_desire",
+            "gilded_blossom",
+            "cannon_rotor"
+        ],
+        "teams": {
+            "team1": [
+                "zhu",
+                "qingyi",
+                "astra"
+            ],
+            "team2": [
+                "zhu",
+                "qingyi",
+                "nicole"
+            ],
+            "team3": [
+                "zhu",
+                "nicole",
+                "astra"
+            ],
+            "team4": [
+                "zhu",
+                "anby",
+                "nicole"
+            ]
+        }
+    },
+    "caesar": {
+        "fullName": "Caesar King",
+        "name": "caesar",
+        "rank": "S",
+        "tier": "1",
+        "category": "support",
+        "type": "defense",
+        "sprite": "/public/images/characters/caesar/caesar-selector-icon.png",
+        "element": "physic",
+        "description": "Caesar: Leader of the Sons of Calydon biker gang, and also a 'monarch' in the making. Her combination of formidable strength and bold, straightforward personality has earned her the love and respect of the Outer Ring's residents. Although she appears to do things in her own way, she is actually very willing to listen to others' opinions. Caesar actively listens to and implements any valid suggestion she hears — regardless of who it comes from. She is completely defenseless against those she trusts. Once she accepts someone, she considers them part of her inner circle, treating them with absolute trust. (Assumption: Caesar currently views you in this way.)",
+        "baseStats": [
+            9526,
+            636,
+            753,
+            61,
+            105,
+            87
+        ],
+        "wEngines": [
+            "tusks_of_fury",
+            "reel_projector",
+            "original_transmorpher",
+            "spring_embrace",
+            "peacekeeper_specialized"
+        ],
+        "teams": {
+            "team1": [
+                "anby0",
+                "caesar",
+                "astra"
+            ],
+            "team2": [
+                "yixuan",
+                "caesar",
+                "pan"
+            ],
+            "team3": [
+                "jane",
+                "caesar",
+                "burnice"
+            ],
+            "team4": [
+                "corin",
+                "caesar",
+                "nicole"
+            ]
+        }
+    },
+    "lucy": {
+        "fullName": "Lucy de Montefio",
+        "name": "lucy",
+        "rank": "A",
+        "tier": "1",
+        "category": "support",
+        "type": "support",
+        "sprite": "/public/images/characters/lucy/lucy-selector-icon.png",
+        "element": "fire",
+        "description": "Luciana de Montefio, whose full name is Luciana Auxesis Theodoro de Montefio, is the daughter of the current head of the prestigious New Eridu Montefio family. Her personality is usually akin to that of a tsundere, seemingly acting harsh when she actually is compassionate and kind underneath, which may have been caused by her severed family ties and Outer Ring life.",
+        "baseStats": [
+            8025,
+            583,
+            612,
+            86,
+            94,
+            92
+        ],
+        "wEngines": [
+            "kaboom_the_cannon",
+            "weeping_cradle",
+            "slice_of_time",
+            "unfettered_game_ball"
+        ],
+        "teams": {
+            "team1": [
+                "miyabi",
+                "burnice",
+                "lucy"
+            ],
+            "team2": [
+                "evelyn",
+                "lither",
+                "lucy"
+            ],
+            "team3": [
+                "miyabi",
+                "lither",
+                "lucy"
+            ]
+        }
+    },
+    "pan": {
+        "fullName": "Pan Yinhu",
+        "name": "pan",
+        "rank": "A",
+        "tier": "1",
+        "category": "support",
+        "type": "defense",
+        "sprite": "/public/images/characters/pan/pan-selector-icon.png",
+        "element": "physic",
+        "description": "Pan Yinhu was the most junior disciple of Yunkui Summit, and serves as its resident chef. He is particularly proud of his cooking, and works hard to make sure the food he makes is the best it can be for his fellow disciplies, actively discouraging them from ordering takeout so that he can feed them instead. He is also the manager of Yunkui Summit's funds. Due to his upbringing where he had to scrape by just to eat, he is well versed in bargain hunting, keeping tabs on local businesses and having numerous technique for acquiring the best bargains at any given time.",
+        "baseStats": [
+            8453,
+            586,
+            712,
+            94,
+            91,
+            90
+        ],
+        "wEngines": [
+            "tusks_of_fury",
+            "tremor_trigram_vessel",
+            "spring_embrace",
+            "peacekeeper_specialized"
+        ],
+        "teams": {
+            "team1": [
+                "yixuan",
+                "pan",
+                "jufufu"
+            ],
+            "team2": [
+                "yixuan",
+                "pan",
+                "astra"
+            ],
+            "team3": [
+                "yixuan",
+                "pan",
+                "koleda"
+            ]
+        }
+    },
+    "pulchra": {
+        "fullName": "Pulchra Fellini",
+        "name": "pulchra",
+        "rank": "A",
+        "tier": "1",
+        "category": "stun",
+        "type": "stun",
+        "sprite": "/public/images/characters/pulchra/pulchra-selector-icon.png",
+        "element": "physic",
+        "description": "Pulchra is an Outer Ring mercenary whose loyalty constantly fluctuates depending on who she deems the strongest. After several run-ins with the Sons of Calydon, she gained respect for the gang and began to reconsider her temporary allegiance with The Vanquishers. After Caesar King rose to power as Overlord, Pulchra finally decided to join the Sons of Calydon, becoming an intel gatherer for the gang.",
+        "baseStats": [
+            7612,
+            590,
+            606,
+            118,
+            92,
+            90
+        ],
+        "wEngines": [
+            "blazing_laurel",
+            "box_cutter",
+            "steam_oven",
+            "hellfire_gears",
+            "precious_fossilized_core"
+        ],
+        "teams": {
+            "team1": [
+                "anby0",
+                "pulchra",
+                "astra"
+            ],
+            "team2": [
+                "nekomata",
+                "pulchra",
+                "lucy"
+            ],
+            "team3": [
+                "soldier11",
+                "pulchra",
+                "lucy"
+            ]
+        }
+    },
+    "qingyi": {
+        "fullName": "Qingyi",
+        "name": "qingyi",
+        "rank": "S",
+        "tier": "1",
+        "category": "stun",
+        "type": "stun",
+        "sprite": "/public/images/characters/qingyi/qingyi-selector-icon.png",
+        "element": "eletric",
+        "description": "Qingyi, or 01 Neo-Genesis VI, is an experienced Public Security officer and novice investigator. With a personally modified riot baton, she fights crime in New Eridu. The most notable thing about Qingyi is her mature personality, having built it off of Old Civilization media and her own very long life. She spends her free time with the elderly citizens of New Eridu, playing chess and drinking hot water. Compared to other Public Security officers, Qingyi is incredibly laid-back, from playing pranks on her other members to working with Proxies.[",
+        "baseStats": [
+            8250,
+            683,
+            612,
+            118,
+            94,
+            93
+        ],
+        "wEngines": [
+            "ice_jade_teapot",
+            "the_restrained",
+            "steam_oven",
+            "precious_fossilized_core"
+        ],
+        "teams": {
+            "team1": [
+                "zhu",
+                "qingyi",
+                "astra"
+            ],
+            "team2": [
+                "harumasa",
+                "qingyi",
+                "astra"
+            ],
+            "team3": [
+                "anby0",
+                "qingyi",
+                "astra"
+            ],
+            "team4": [
+                "hugo",
+                "qingyi",
                 "lither"
             ]
         }

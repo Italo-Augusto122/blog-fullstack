@@ -263,8 +263,6 @@
         ],
         "wEngines": [
             "qingming_birdcage",
-            "zanshin_herb_case",
-            "steel_cushion",
             "radiowave_journey",
             "puzzle_sphere"
         ],
@@ -1171,7 +1169,7 @@
         "type": "stun",
         "sprite": "/public/images/characters/qingyi/qingyi-selector-icon.png",
         "element": "eletric",
-        "description": "Qingyi, or 01 Neo-Genesis VI, is an experienced Public Security officer and novice investigator. With a personally modified riot baton, she fights crime in New Eridu. The most notable thing about Qingyi is her mature personality, having built it off of Old Civilization media and her own very long life. She spends her free time with the elderly citizens of New Eridu, playing chess and drinking hot water. Compared to other Public Security officers, Qingyi is incredibly laid-back, from playing pranks on her other members to working with Proxies.[",
+        "description": "Qingyi, or 01 Neo-Genesis VI, is an experienced Public Security officer and novice investigator. With a personally modified riot baton, she fights crime in New Eridu. The most notable thing about Qingyi is her mature personality, having built it off of Old Civilization media and her own very long life. She spends her free time with the elderly citizens of New Eridu, playing chess and drinking hot water. Compared to other Public Security officers, Qingyi is incredibly laid-back, from playing pranks on her other members to working with Proxies.",
         "baseStats": [
             8250,
             683,
@@ -1206,6 +1204,530 @@
                 "hugo",
                 "qingyi",
                 "lither"
+            ]
+        }
+    },
+    "harumasa": {
+        "fullName": "Asaba Harumasa",
+        "name": "harumasa",
+        "rank": "S",
+        "tier": "1-5",
+        "category": "main_dps",
+        "type": "attack",
+        "sprite": "/public/images/characters/harumasa/harumasa-selector-icon.png",
+        "element": "eletric",
+        "description": "Asaba Harumasa is the carefree expert archer of Hollow Special Operations Section 6. A child prodigy with both bow and blade, Harumasa aids his teammates from afar, while also being able to switch to close combat if necessary. He has little interest in work, and tries his best to slack off, usually doing things to the acceptable minimum and napping for the rest of the job as he waits to clock out.",
+        "baseStats": [
+            7405,
+            840,
+            600,
+            90,
+            80,
+            95
+        ],
+        "wEngines": [
+            "zanshin_herb_case",
+            "heartstring_nocturne",
+            "the_brimstone",
+            "marcato_desire",
+            "starlight_engine",
+            "cannon_rotor"
+        ],
+        "teams": {
+            "team1": [
+                "harumasa",
+                "trigger",
+                "astra"
+            ],
+            "team2": [
+                "harumasa",
+                "qingyi",
+                "astra"
+            ],
+            "team3": [
+                "harumasa",
+                "trigger",
+                "rina"
+            ],
+            "team4": [
+                "harumasa",
+                "anby",
+                "nicole"
+            ]
+        }
+    },
+    "rina": {
+        "fullName": "Rina",
+        "name": "rina",
+        "rank": "S",
+        "tier": "1-5",
+        "category": "support",
+        "type": "support",
+        "sprite": "/public/images/characters/rina/rina-selector-icon.png",
+        "element": "eletric",
+        "description": "Alexandrina \"Rina\" Sebastiana, the head maid of Victoria Housekeeping Co., and the most senior member of the organization. She possesses beauty and grace, appearing immaculate from head to toe, with a noble demeanor and a gentle smile on her face. She places considerable importance on how she is perceived by others. Rina is always accompanied by two Bangboo named Anastella (brown hair) and Drusilla (blonde hair), both of whom have distinct personalities.",
+        "baseStats": [
+            8609,
+            642,
+            600,
+            83,
+            93,
+            92
+        ],
+        "wEngines": [
+            "weeping_cradle",
+            "kaboom_the_cannon",
+            "slice_of_time",
+            "unfettered_game_ball"
+        ],
+        "teams": {
+            "team1": [
+                "yanagi",
+                "miyabi",
+                "rina"
+            ],
+            "team2": [
+                "yanagi",
+                "burnice",
+                "rina"
+            ],
+            "team3": [
+                "jane",
+                "vivian",
+                "rina"
+            ],
+            "team4": [
+                "harumasa",
+                "qingyi",
+                "rina"
+            ]
+        }
+    },
+    "soldier11": {
+        "fullName": "Soldier 11",
+        "name": "soldier11",
+        "rank": "S",
+        "tier": "2",
+        "category": "main_dps",
+        "type": "attack",
+        "sprite": "/public/images/characters/soldier11/soldier11-selector-icon.png",
+        "element": "fire",
+        "description": "Soldier 11 is a fan of spicy food, and likes the super-spicy noodles served at Waterfall Soup. It's worth noting she currently calls us by a different name every time she greets us. Additional information regarding Soldier 11 is still being obtained.",
+        "baseStats": [
+            7673,
+            813,
+            612,
+            93,
+            93,
+            94
+        ],
+        "wEngines": [
+            "heartstring_nocturne",
+            "the_brimstone",
+            "zanshin_herb_case",
+            "marcato_desire",
+            "starlight_engine",
+            "cannon_rotor",
+            "gilded_blossom"
+        ],
+        "teams": {
+            "team1": [
+                "soldier11",
+                "lither",
+                "astra"
+            ],
+            "team2": [
+                "soldier11",
+                "jufufu",
+                "astra"
+            ],
+            "team3": [
+                "soldier11",
+                "trigger",
+                "astra"
+            ],
+            "team4": [
+                "soldier11",
+                "koleda",
+                "lucy"
+            ]
+        }
+    },
+    "anton": {
+        "fullName": "Anton Ivanov",
+        "name": "anton",
+        "rank": "A",
+        "tier": "3",
+        "category": "main_dps",
+        "type": "attack",
+        "sprite": "/public/images/characters/anton/anton-selector-icon.png",
+        "element": "eletric",
+        "description": "Anton is a key member of construction staff at Belobog Industries and one of Koleda's trusted aides. 'Got a job you can't handle? Leave it to me!' Anton is one of the top brass at Belobog, handpicked by its former president Khors, which makes him a 'senior employee.' A genuine, straightforward man, always boosting the morale of his coworkers with his surplus of energy. Apart from this, it seems Anton is always talking to his jackhammer, affectionately calling it, 'Bro.' An instance from Anton's everyday life goes like this: Anton, seemingly in dialogue with himself, asks, 'Whaddaya think, Bro?' The jackhammer replies, 'Vroom vroom vroom—' Anton, apparently enlightened, responds, 'I see, I see! You still got it, Bro!' Unfortunately, I have not collected enough information on such occurrences and am not able to deliver further analysis.",
+        "baseStats": [
+            7219,
+            716,
+            622,
+            95,
+            90,
+            86
+        ],
+        "wEngines": [
+            "heartstring_nocturne",
+            "zanshin_herb_case",
+            "the_brimstone",
+            "street_superstar",
+            "starlight_engine",
+            "marcato_desire",
+            "cannon_rotor",
+            "gilded_blossom",
+            "drill_rig_red_axis"
+        ],
+        "teams": {
+            "team1": [
+                "anton",
+                "nicole",
+                "astra"
+            ],
+            "team2": [
+                "aton",
+                "trigger",
+                "astra"
+            ],
+            "team3": [
+                "anton",
+                "grace",
+                "nicole"
+            ]
+        }
+    },
+    "billy": {
+        "fullName": "Billy Kid",
+        "name": "billy",
+        "rank": "A",
+        "tier": "3",
+        "category": "main_dps",
+        "type": "attack",
+        "sprite": "/public/images/characters/billy/billy-selector-icon.png",
+        "element": "physic",
+        "description": "'The White Chariot' of the Cunning Hares and Former 'Red Scarf' of Calydon, Billy Kid is an Intelligent Construct made for combat. Despite having a childish personality and fascination for the TV show Starlight Knight and the idol Monica, Billy is a skilled and powerful fighter, having once been an Outer Ring Champion and being able to outmatch Lighter in a fistfight. Armed with a pair of revolvers, Billy fights countless threats inside Hollows as part of his job, though he does have a tendency to forget his ammo count.",
+        "baseStats": [
+            7219,
+            712,
+            606,
+            91,
+            91,
+            92
+        ],
+        "wEngines": [
+            "steel_cushion",
+            "starlight_engine_replica",
+            "heartstring_nocturne",
+            "zanshin_herb_case",
+            "the_brimstone",
+            "marcato_desire",
+            "starlight_engine",
+            "street_superstar",
+            "cannon_rotor",
+            "gilded_blossom"
+        ],
+        "teams": {
+            "team1": [
+                "billy",
+                "nicole",
+                "astra"
+            ],
+            "team2": [
+                "billy",
+                "trigger",
+                "astra"
+            ],
+            "team3": [
+                "billy",
+                "lucy",
+                "nicole"
+            ]
+        }
+    },
+    "corin": {
+        "fullName": "Corin Wickes",
+        "name": "corin",
+        "rank": "A",
+        "tier": "3",
+        "category": "main_dps",
+        "type": "attack",
+        "sprite": "/public/images/characters/corin/corin-selector-icon.png",
+        "element": "physic",
+        "description": "Corin Wickes is a young maid working for Victoria Housekeeping Co. who has notable self esteem and confidence issues. Once a sickly girl who required major surgery, Corin is now an exceptional combatant who takes an intimidating and devastating 'chainsaw' with her wherever she goes, be it for in-Hollow commissions, for maid-related tasks, and for everyday life. Though timid, lacking self-esteem and constantly apologizing for anything and everything, Corin is one of Victoria Housekeeping's most reliable members, sporting a flawless performance and never failing to fulfill her tasks. On rare occasions, Corin shows notable initiative and confidence; at times like this, she rarely stutters or apologizes.",
+        "baseStats": [
+            6976,
+            732,
+            604,
+            93,
+            96,
+            93
+        ],
+        "wEngines": [
+            "steel_cushion",
+            "heartstring_nocturne",
+            "zanshin_herb_case",
+            "the_brimstone",
+            "marcato_desire",
+            "starlight_engine",
+            "street_superstar",
+            "cannon_rotor",
+            "gilded_blossom"
+        ],
+        "teams": {
+            "team1": [
+                "corin",
+                "trigger",
+                "astra"
+            ],
+            "team2": [
+                "corin",
+                "caesar",
+                "astra"
+            ],
+            "team3": [
+                "corin",
+                "lycaon",
+                "nicole"
+            ]
+        }
+    },
+    "grace": {
+        "fullName": "Grace Howard",
+        "name": "grace",
+        "rank": "S",
+        "tier": "3",
+        "category": "sub_dps",
+        "type": "anomaly",
+        "sprite": "/public/images/characters/grace/grace-selector-icon.png",
+        "element": "eletric",
+        "description": "Grace Howard is the eccentric, machine-obsessed R&D specialist of Belobog Heavy Industries, and adoptive sister to Belobog's current president, Koleda. She is responsible for the new-generation of in-Hollow Smart Machinery the company uses. Whilst having a notable interest in dismantling and examining machinery, Grace also sees creations of her own as her 'children,' ready to protect them at any given moment. Outside of mechanics and engineering, Grace Howard is known for her acrobatic prowess in combat, capable of dodging various forms of gunfire and etheric attacks, whilst fighting back with a weaponized nail gun and electric grenades.",
+        "baseStats": [
+            7482,
+            750,
+            600,
+            83,
+            115,
+            116
+        ],
+        "wEngines": [
+            "electro_lip_gloss",
+            "fusion_compiler",
+            "weeping_gemini",
+            "rainforest_gourmet"
+        ],
+        "teams": {
+            "team1": [
+                "miyabi",
+                "grace",
+                "astra"
+            ],
+            "team2": [
+                "alice",
+                "grace",
+                "yuzuha"
+            ],
+            "team3": [
+                "anton",
+                "grace",
+                "nicole"
+            ]
+        }
+    },
+    "koleda": {
+        "fullName": "Koleda Belobog",
+        "name": "koleda",
+        "rank": "S",
+        "tier": "3",
+        "category": "stun",
+        "type": "stun",
+        "sprite": "/public/images/characters/koleda/koleda-selector-icon.png",
+        "element": "fire",
+        "description": "Koleda is the current head of Belobog Industries, and the biological daughter of the company's founder, Khors. Her father, Khors, vanished due to a scandal involving embezzlement and fled, which severely shook the company, nearly driving it to the brink of collapse. Once she came of age, Koleda willingly stepped up to untangle the mess, rallying the remaining company workforce and resources to revive the financially and reputationally vulnerable Belobog Heavy Industries. With the help of new invaluable team members, Belobog eventually managed to regain its prominence in relevant sectors. Though not as resplendent as its prime, Belobog in its current state is still a notable newcomer in the field.",
+        "baseStats": [
+            8127,
+            660,
+            594,
+            116,
+            97,
+            96
+        ],
+        "wEngines": [
+            "hellfire_gears",
+            "precious_fossilized_core",
+            "the_restrained"
+        ],
+        "teams": {
+            "team1": [
+                "evelyn",
+                "koleda",
+                "astra"
+            ],
+            "team2": [
+                "yixuan",
+                "koleda",
+                "pan"
+            ]
+        }
+    },
+    "seth": {
+        "fullName": "Seth Lowell",
+        "name": "seth",
+        "rank": "A",
+        "tier": "3",
+        "category": "support",
+        "type": "defense",
+        "sprite": "/public/images/characters/seth/seth-selector-icon.png",
+        "element": "eletric",
+        "description": "Seth, a rookie officer in the Public Security Criminal Investigation Special Response Team, is a key player in providing fire support during criminal investigations. He graduated at the top of his class in the academy and could have landed a higher position, but he chose the tougher path of the Special Response Team. His impressive profile makes him seem like a genius, but he's actually a hard worker who has had his own struggles. There have been times when he practiced the subjects he wasn't good at until he cried. Seth is quite smart, but his personality often leads to him being taken advantage of by cunning criminals, or sometimes, coworkers.",
+        "baseStats": [
+            8701,
+            568,
+            746,
+            94,
+            90,
+            86
+        ],
+        "wEngines": [
+            "peacekeeper_specialized",
+            "spring_embrace",
+            "bunny_band",
+            "original_transmorpher"
+        ],
+        "teams": {
+            "team1": [
+                "jane",
+                "burnice",
+                "seth"
+            ],
+            "team2": [
+                "yanagi",
+                "burnice",
+                "seth"
+            ]
+        }
+    },
+    "ben": {
+        "fullName": "Ben Bigger",
+        "name": "ben",
+        "rank": "A",
+        "tier": "4",
+        "category": "support",
+        "type": "defense",
+        "sprite": "/public/images/characters/ben/ben-selector-icon.png",
+        "element": "fire",
+        "description": "Ben is the financial and asset management director at Belobog Heavy Industries, and one of Koleda's trusted aides. 'I enjoy mathematics, but that doesn't stop me from giving thugs a good smack.' He's a burly and strong Thiren Despite his tough exterior, he's of a surprisingly sensitive and detail-oriented nature, especially when it comes to numbers. Originally a frontline mechanical operator at Belobog, his talents caught Koleda's discerning eye, leading to his promotion to a managerial position responsible for the company's finances. Grateful for Koleda's trust in him, he remains profoundly loyal to her. His favorite food is black caviar, but he dislikes fish.",
+        "baseStats": [
+            8577,
+            867,
+            724,
+            95,
+            90,
+            86
+        ],
+        "wEngines": [
+            "spring_embrace",
+            "original_transmorpher",
+            "big_cylinder",
+            "bunny_band"
+        ],
+        "teams": {
+            "team1": [
+                "lither",
+                "ben",
+                "lucy"
+            ],
+            "team2": [
+                "evelyn",
+                "koleda",
+                "ben"
+            ]
+        }
+    },
+    "nekomata": {
+        "fullName": "Nekomata",
+        "name": "nekomata",
+        "rank": "S",
+        "tier": "4",
+        "category": "main_dps",
+        "type": "attack",
+        "sprite": "/public/images/characters/nekomata/nekomata-selector-icon.png",
+        "element": "physic",
+        "description": "Nekomiya Mana. Refers to herself as \"Nekomata.\" A cat Thiren with feline traits, possessing great dexterity when hunting and an insatiable curiosity about the outside world. Sometimes mischievous, she engages in harmless pranks. But when she sets her sights on a target, her feline-like agility and focus are enough to leave others in awe. She's most interested in other people's wallets. Recommendation: Always keep an eye on your wallet when Nekomata is around.",
+        "baseStats": [
+            7560,
+            835,
+            587,
+            92,
+            96,
+            97
+        ],
+        "wEngines": [
+            "steel_cushion",
+            "heartstring_nocturne",
+            "zanshin_herb_case",
+            "the_brimstone",
+            "marcato_desire",
+            "guilded_blossom",
+            "starlight_engine",
+            "cannon_rotor"
+        ],
+        "teams": {
+            "team1": [
+                "nekomata",
+                "trigger",
+                "astra"
+            ],
+            "team2": [
+                "nekomata",
+                "pulchra",
+                "nicole"
+            ]
+        }
+    },
+    "anby": {
+        "fullName": "Anby Demara",
+        "name": "anby",
+        "rank": "A",
+        "tier": "4",
+        "category": "stun",
+        "type": "stun",
+        "sprite": "/public/images/characters/anby/anby-selector-icon.png",
+        "element": "eletric",
+        "description": "Anby Demara is a highly skilled member of the Cunning Hares and a former soldier of the New Eridu Defense Force. Though she lacks basic social skills, Anby makes up for it with her advanced combat prowess and Hollow knowledge gained from her genetic cloning and time as Soldier 0. Anby has two notable special interests: movies and hamburgers, the former she uses as reference for real life events, and the latter her favorite food due to its taste, affordability, and complete nutritional value.",
+        "baseStats": [
+            7500,
+            583,
+            612,
+            118,
+            93,
+            94
+        ],
+        "wEngines": [
+            "hellfire_gears",
+            "steam_oven",
+            "precious_fossilized_core",
+            "the_restrained",
+            "demara_battery_mark_ii"
+        ],
+        "teams": {
+            "team1": [
+                "anby0",
+                "anby",
+                "nicole"
+            ],
+            "team2": [
+                "zhu",
+                "anby",
+                "nicole"
+            ],
+            "team3": [
+                "harumasa",
+                "anby",
+                "nicole"
             ]
         }
     }

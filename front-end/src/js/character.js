@@ -40,7 +40,7 @@ fetch("../json/characters.json")
                 document.getElementById("container_builds").innerHTML = "";
 
                 const enginesContainer = document.createElement("div");
-                enginesContainer.className = "w-engines-container";
+                enginesContainer.className = "content-container";
 
                 const titleBox = document.createElement("div");
                 titleBox.style.display = "flex";
@@ -92,13 +92,12 @@ fetch("../json/characters.json")
 
                             const arrow = document.createElement("i");
                             arrow.className = "bi bi-chevron-down";
-                            
+
                             headerBox.appendChild(sonBox);
                             headerBox.appendChild(arrow);
 
                             const descriptionBox = document.createElement("div");
                             descriptionBox.className = "description-box";
-                            // descriptionBox.style.display = "none";
 
                             const description = document.createElement("p");
                             description.textContent = engine.description;
@@ -119,17 +118,111 @@ fetch("../json/characters.json")
 
                 document.getElementById("container_builds").appendChild(enginesContainer);
             }
+
             const pageTeams = () => {
                 document.getElementById("container_builds").innerHTML = "";
 
-                const box = document.createElement("div");
-                box.className = "teams_box";
+                const teamsContainer = document.createElement("div");
+                teamsContainer.className = "content-container";
 
-                const text = document.createElement("p");
-                text.textContent = char.teams[0];
+                const titleBox = document.createElement("div");
+                titleBox.style.display = "flex";
+                titleBox.style.justifyContent = "flex-start";
+                titleBox.style.width = "90%";
+                titleBox.style.gap = "20px";
 
-                box.appendChild(text);
-                document.getElementById("container_builds").appendChild(box);
+                const hr = document.createElement("hr");
+                hr.style.width = "5px";
+                hr.style.backgroundColor = "rgba(230, 218, 53, 1)";
+                hr.style.border = "none";
+
+                const title = document.createElement("h2");
+                title.textContent = "Best Teams";
+
+                titleBox.appendChild(hr);
+                titleBox.appendChild(title);
+
+                teamsContainer.appendChild(titleBox);
+
+                fetch("../json/characters.json")
+                    .then(response => response.json())
+                    .then(data => {
+                        const total = Object.keys(char.teams).length;
+
+                        for (let i = 0; i < total; i++) {
+
+                            const teamKey = Object.keys(char.teams)[i];
+                            const team = char.teams[teamKey];
+
+                            const box = document.createElement("div");
+                            box.className = "team-box";
+
+                            const sonBox = document.createElement("div");
+                            sonBox.className = "son-box";
+
+                            const table = document.createElement("table");
+                            const thead = document.createElement("thead");
+                            const tbody = document.createElement("tbody");
+
+                            table.appendChild(thead);
+                            table.appendChild(tbody);
+
+                            const trHead = document.createElement("tr");
+                            const trBody = document.createElement("tr");
+
+                            for (let j = 0; j < team.length; j++) {
+                                const img = document.createElement("img");
+                                img.src = data[team[j]].sprite;
+                                img.width = 120;
+
+                                const link = document.createElement("a");
+                                link.href = `./character.html?name=${data[team[j]].name}`;
+                                link.appendChild(img);
+
+                                const textContent = document.createElement("p");
+                                switch (data[team[j]].category) {
+                                    case "main_dps": {
+                                        textContent.textContent = "Main DPS";
+                                        textContent.style.backgroundColor = "rgba(203, 3, 3, 1)";
+                                        break;
+                                    }
+                                    case "sub_dps": {
+                                        textContent.textContent = "Sub DPS";
+                                        textContent.style.backgroundColor = "rgba(85, 0, 255, 1)";
+                                        break;
+                                    }
+                                    case "support": {
+                                        textContent.textContent = "Support";
+                                        textContent.style.backgroundColor = "rgba(127, 252, 118, 1)";
+                                        break;
+                                    }
+                                    case "stun": {
+                                        textContent.textContent = "Stun";
+                                        textContent.style.backgroundColor = "rgba(202, 177, 55, 1)";
+                                        break;
+                                    }
+                                }
+                                
+                                const th = document.createElement("th");
+                                th.appendChild(link);
+                                trHead.appendChild(th);
+                                thead.appendChild(trHead);
+
+                                
+                                const td = document.createElement("td");
+                                td.appendChild(textContent);
+                                trBody.appendChild(td);
+                                tbody.appendChild(trBody);
+
+                                
+                            }
+                            // sonBox.appendChild(table);
+                            box.appendChild(table);
+                            teamsContainer.appendChild(box);
+                        }
+                    }).catch(error => console.error("Erro ao carregar os dados:", error));
+
+                    document.getElementById("container_builds").appendChild(teamsContainer);
             }
 
             const changePage = (index) => {

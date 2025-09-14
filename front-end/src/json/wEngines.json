@@ -392,6 +392,14 @@
             "mainStatus": "Base ATK (Lv 60): 713",
             "subStatus": "Energy Regen (Lv 60): 60%"
         },
+        "weeping_cradle": {
+            "name": "Weeping Cradle",
+            "sprite": "/public/images/w-engines/support/weeping_cradle.webp",
+            "rank": "S",
+            "description": "While off-field, Energy Regen increases by 0.6/0.75/0.9/1.05/1.2 per second. Attacks from the equipper enhance the squad's DMG against a struck target by 10/12.5/15/17.5/20% for 3 seconds. During this period, this effect is further increased by 1.7/2/2.5/3/3.3% every 0.5s, up to a maximum additional increase of 10.2/12/15/18/19.8%. Repeated triggers only refresh its duration without refreshing the DMG increase effect. Passive effects of the same name do not stack.",
+            "mainStatus": "Base ATK (Lv 60): 684",
+            "subStatus": "PEN Ratio (Lv 60): 24%"
+        },
         "bashful_demon": {
             "name": "Bashful Demon",
             "sprite": "/public/images/w-engines/support/bashful_demon.webp",
@@ -399,6 +407,14 @@
             "description": "Increases Ice DMG by 15/17.5/20/22/24%. When launching an EX Special Attack, all squad members' ATK increases by 2/2.3/2.6/2.9/3.2% for 12s, stacking up to 4 times. Retriggering refreshes duration. Passive effects of the same name do not stack.",
             "mainStatus": "Base ATK (Lv 60): 624",
             "subStatus": "Attack (Lv 60): 25%"
+        },
+        "kaboom_the_cannon": {
+            "name": "Kaboom the Cannon",
+            "sprite": "/public/images/w-engines/support/kaboom_the_cannon.webp",
+            "rank": "A",
+            "description": "When any friendly unit in the squad attacks and hits an enemy, all friendly units' ATK increases by 2.5/2.8/3.2/3.6/4% for 8s, stacking up to 4 times. The duration of each stack is calculated separately, and each friendly unit can provide 1 stack of the buff. Passive effects of the same name do not stack.",
+            "mainStatus": "Base ATK (Lv 60): 624",
+            "subStatus": "Energy Regen (Lv 60): 50%"
         },
         "slice_of_time": {
             "name": "Slice of Time",

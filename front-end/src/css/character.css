@@ -113,7 +113,7 @@ section#builds .btns input:checked + label {
     border-bottom-color: rgba(230, 218, 53, 1);
 }
 
-section#builds .w-engines-container {
+section#builds .content-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -122,7 +122,7 @@ section#builds .w-engines-container {
     padding: 10px 50px;
 }
 
-section#builds .w-engines-container .w-engine-box {
+section#builds .w-engine-box {
     display: flex;
     flex-direction: column;
     /* padding: 5px 30px; */
@@ -131,7 +131,7 @@ section#builds .w-engines-container .w-engine-box {
     border: 2px solid rgb(132, 132, 132);
 }
 
-section#builds .w-engines-container .w-engine-box .header-engine-box {
+section#builds .w-engine-box .header-engine-box {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -139,20 +139,20 @@ section#builds .w-engines-container .w-engine-box .header-engine-box {
     cursor: pointer;
 }
 
-section#builds .w-engines-container .w-engine-box .header-engine-box div {
+section#builds .w-engine-box .header-engine-box div {
     display: flex;
     align-items: center;
     gap: 20px;
 }
 
-section#builds .w-engines-container .w-engine-box .header-engine-box i {
+section#builds .w-engine-box .header-engine-box i {
     transition: all 0.3s ease;
 }
-section#builds .w-engines-container .w-engine-box .header-engine-box i.rotate {
+section#builds .w-engine-box .header-engine-box i.rotate {
     transform: rotate(180deg);
 }
 
-section#builds .w-engines-container .description-box {
+section#builds .description-box {
     opacity: 0;
     max-height: 0;
     overflow: hidden;
@@ -160,8 +160,39 @@ section#builds .w-engines-container .description-box {
     background-color: rgb(30, 30, 30);
     transition: all 0.3s ease;
 }
-section#builds .w-engines-container .description-box.active {
+section#builds .description-box.active {
     opacity: 1;
     max-height: 150px;
     padding: 10px 30px;
+}
+
+section#builds .team-box {
+    background-color: rgb(57, 57, 57);
+    width: 80%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    border-top: #c49331 solid 5px;
+}
+
+section#builds .team-box .son-box {
+    background-color: blue;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+section#builds .team-box  table {
+    width: 100%;
+    height: auto;
+}
+section#builds .team-box  table thead {
+    margin-bottom: 20px;
+    display: table-header-group;
+}
+section#builds .team-box  table td {
+  text-align: center;
 }
